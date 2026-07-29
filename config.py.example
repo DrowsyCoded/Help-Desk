@@ -1,0 +1,12 @@
+# Copy this file to config.py and fill in real values -- config.py itself is gitignored
+# and must never be committed (it holds your password hash and secret keys).
+#
+# Generate real values with:
+#   python -c "from werkzeug.security import generate_password_hash; print(generate_password_hash('your-password-here'))"
+#   python -c "import secrets; print(secrets.token_hex(32))"   # for SECRET_KEY
+#   python -c "import secrets; print(secrets.token_hex(24))"   # for API_KEY
+
+ADMIN_USERNAME = "changeme"
+ADMIN_PASSWORD_HASH = "generate-this-see-instructions-above"
+SECRET_KEY = "generate-this-see-instructions-above"
+API_KEY = "generate-this-see-instructions-above"   # send as header: X-API-Key

@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>{% block title %}Help Desk Tracker{% endblock %}</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <nav class="navbar">
+    <a href="{{ url_for('submit_ticket') }}">Submit a Ticket</a>
+    {% if session.get('logged_in') %}
+      <a href="{{ url_for('list_tickets') }}">All Tickets</a>
+      <a href="{{ url_for('dashboard') }}">Dashboard</a>
+      <a href="{{ url_for('logout') }}" class="navbar-right">Log out ({{ session.get('username') }})</a>
+    {% else %}
+      <a href="{{ url_for('login') }}" class="navbar-right">Log in</a>
+    {% endif %}
+  </nav>
+  <main>
+    {% block content %}{% endblock %}
+  </main>
+</body>
+</html>

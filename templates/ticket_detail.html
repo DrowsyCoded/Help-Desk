@@ -1,0 +1,98 @@
+{% extends "base.html" %}
+{% block title %}Ticket #{{ ticket.id }}{% endblock %}
+{% block content %}
+<h1>Ticket #{{ ticket.id }} -- {{ ticket.device_name }}</h1>
+<p><strong>Submitted by:</strong> {{ ticket.submitted_by }} on {{ ticket.date_submitted }}</p>
+<p><strong>Issue:</strong> {{ ticket.issue_description }}</p>
+
+<form method="post" class="card">
+  <input type="hidden" name="csrf_token" value="{{ csrf_token() }}">
+  <label>Status
+    <select name="status">
+      {% for s in statuses %}
+        <option value="{{ s }}" {% if ticket.status == s %}selected{% endif %}>{{ s }}</option>
+      {% endfor %}
+    </select>
+  </label>
+  <label>Priority
+    <select name="priority">
+      {% for p in priorities %}
+        <option value="{{ p }}" {% if ticket.priority == p %}selected{% endif %}>{{ p }}</option>
+      {% endfor %}
+    </select>
+  </label>
+  <label>Category
+    <select name="category">
+      {% for c in categories %}
+        <option value="{{ c }}" {% if ticket.category == c %}selected{% endif %}>{{ c }}</option>
+      {% endfor %}
+    </select>
+  </label>
+  <label>Diagnosis notes
+    <textarea name="diagnosis_notes" rows="3">{{ ticket.diagnosis_notes or '' }}</textarea>
+  </label>
+  <label>Fix applied
+    <textarea name="fix_applied" rows="3">{{ ticket.fix_applied or '' }}</textarea>
+  </label>
+  <label>Time spent (minutes)
+    <input type="number" name="time_spent_minutes" value="{{ ticket.time_spent_minutes or '' }}">
+  </label>
+  <button type="submit">Save</button>
+</form>
+
+{% if ticket.date_resolved %}
+<p><em>Resolved on {{ ticket.date_resolved }}</em></p>
+{% endif %}
+
+<h2>Activity log</h2>
+<table>
+  <tr><th>When</th><th>What happened</th></tr>
+  {% for a in activity %}
+  <tr><td>{{ a.timestamp }}</td><td>{{ a.message }}</td></tr>
+  {% else %}
+  <tr><td colspan="2">No activity yet.</td></tr>
+  {% endfor %}
+</table>
+
+<p><h2>Remote access</h2>
+{% if ticket.remote_status == 'Requested' %}
+<div class="remote-status remote-pending">
+  Code sent: <strong>{{ ticket.remote_code }}</strong> -- waiting on them to connect.
+  <form method="post" action="{{ url_for('complete_remote_access', ticket_id=ticket.id) }}">
+    <input type="hidden" name="csrf_token" value="{{ csrf_token() }}">
+    <button type="submit">Mark Session Complete</button>
+  </form>
+</div>
+{% else %}
+<form method="post" action="{{ url_for('request_remote_access', ticket_id=ticket.id) }}" class="card">
+  <input type="hidden" name="csrf_token" value="{{ csrf_token() }}">
+  <label>Quick Assist security code (get this yourself: open Quick Assist &rarr; "Give assistance")
+    <input type="text" name="quick_assist_code" placeholder="e.g. 123 456" required>
+  </label>
+  <button type="submit">Send Remote Access Request</button>
+</form>
+{% if ticket.remote_status == 'Completed' %}<p class="remote-status">Last session completed.</p>{% endif %}
+{% endif %}
+
+<h2>Conversation with submitter</h2>
+<div class="messages">
+  {% for m in messages %}
+  <div class="message message-{{ m.sender }}">
+    <div class="message-meta">{{ 'You' if m.sender == 'admin' else ticket.submitted_by }} &middot; {{ m.timestamp }}</div>
+    <div class="message-body">{{ m.body }}</div>
+  </div>
+  {% else %}
+  <p>No messages yet.</p>
+  {% endfor %}
+</div>
+<form method="post" action="{{ url_for('ticket_reply', ticket_id=ticket.id) }}" class="card">
+  <input type="hidden" name="csrf_token" value="{{ csrf_token() }}">
+  <label>Reply
+    <textarea name="message" rows="3" required></textarea>
+  </label>
+  <button type="submit">Send Reply</button>
+</form>
+<p class="submitter-link">Submitter's link: <a href="{{ url_for('my_ticket', token=ticket.access_token) }}">{{ url_for('my_ticket', token=ticket.access_token) }}</a></p>
+
+<p><a href="{{ url_for('list_tickets') }}">&larr; Back to all tickets</a></p></p>
+{% endblock %}

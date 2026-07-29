@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% block title %}Ticket Submitted{% endblock %}
+{% block content %}
+<h1>Ticket submitted</h1>
+<p>Thanks -- it's in the queue now.</p>
+{% if token %}
+<div class="card">
+  <p><strong>Save this link</strong> to check on your ticket and message back and forth:</p>
+  <p><a href="{{ url_for('my_ticket', token=token) }}">{{ url_for('my_ticket', token=token) }}</a></p>
+</div>
+{% endif %}
+<a href="{{ url_for('submit_ticket') }}">Submit another</a>
+{% endblock %}

@@ -1,0 +1,40 @@
+{% extends "base.html" %}
+{% block title %}Ticket #{{ ticket.id }}{% endblock %}
+{% block content %}
+<h1>Your ticket -- {{ ticket.device_name }}</h1>
+<p><strong>Status:</strong> <span class="status-{{ ticket.status|replace(' ', '') }}-text">{{ ticket.status }}</span></p>
+<p><strong>Priority:</strong> {{ ticket.priority }} | <strong>Category:</strong> {{ ticket.category }}</p>
+<p><strong>Issue:</strong> {{ ticket.issue_description }}</p>
+
+{% if ticket.remote_status == 'Requested' %}
+<div class="remote-banner">
+  <h2>Remote help is available</h2>
+  <ol>
+    <li>Press the Windows key, type "Quick Assist", and open it.</li>
+    <li>Click "Get help".</li>
+    <li>Enter this code: <strong>{{ ticket.remote_code }}</strong></li>
+    <li>Click "Allow" when prompted to let them see your screen.</li>
+  </ol>
+</div>
+{% endif %}
+
+<h2>Conversation</h2>
+<div class="messages">
+  {% for m in messages %}
+  <div class="message message-{{ m.sender }}">
+    <div class="message-meta">{{ 'Support' if m.sender == 'admin' else 'You' }} &middot; {{ m.timestamp }}</div>
+    <div class="message-body">{{ m.body }}</div>
+  </div>
+  {% else %}
+  <p>No messages yet.</p>
+  {% endfor %}
+</div>
+
+<form method="post" class="card">
+  <input type="hidden" name="csrf_token" value="{{ csrf_token() }}">
+  <label>Write a message
+    <textarea name="message" rows="3" required></textarea>
+  </label>
+  <button type="submit">Send</button>
+</form>
+{% endblock %}

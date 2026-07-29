@@ -1,0 +1,45 @@
+{% extends "base.html" %}
+{% block title %}All Tickets{% endblock %}
+{% block content %}
+<h1>Tickets</h1>
+<form method="get" class="filters">
+  <input type="text" name="q" value="{{ search }}" placeholder="Search device, name, or issue">
+  <select name="status">
+    <option value="">All statuses</option>
+    {% for s in statuses %}
+      <option value="{{ s }}" {% if status_filter == s %}selected{% endif %}>{{ s }}</option>
+    {% endfor %}
+  </select>
+  <select name="priority">
+    <option value="">All priorities</option>
+    {% for p in priorities %}
+      <option value="{{ p }}" {% if priority_filter == p %}selected{% endif %}>{{ p }}</option>
+    {% endfor %}
+  </select>
+  <select name="category">
+    <option value="">All categories</option>
+    {% for c in categories %}
+      <option value="{{ c }}" {% if category_filter == c %}selected{% endif %}>{{ c }}</option>
+    {% endfor %}
+  </select>
+  <button type="submit">Filter</button>
+  <a href="{{ url_for('export_csv', status=status_filter, priority=priority_filter, category=category_filter, q=search) }}" class="button-link">Export CSV</a>
+</form>
+
+<table>
+  <tr><th>Device</th><th>Submitted by</th><th>Issue</th><th>Status</th><th>Priority</th><th>Category</th><th>Date</th></tr>
+  {% for t in tickets %}
+  <tr class="status-{{ t.status|replace(' ', '') }}">
+    <td><a href="{{ url_for('ticket_detail', ticket_id=t.id) }}">{{ t.device_name }}</a></td>
+    <td>{{ t.submitted_by }}</td>
+    <td>{{ t.issue_description[:60] }}{% if t.issue_description|length > 60 %}...{% endif %}</td>
+    <td>{{ t.status }}</td>
+    <td class="priority-{{ t.priority }}">{{ t.priority }}</td>
+    <td>{{ t.category }}</td>
+    <td>{{ t.date_submitted }}</td>
+  </tr>
+  {% else %}
+  <tr><td colspan="7">No tickets yet.</td></tr>
+  {% endfor %}
+</table>
+{% endblock %}

@@ -89,6 +89,7 @@ PORTFOLIO = [
 BLOG_POSTS = [
     {
         "slug": "how-to-beat-an-ats-resume-2026",
+        "image": "blog-ats-resume-cover.jpg",
         "title": "How to Beat an ATS: What Actually Gets Your Resume Read in 2026",
         "description": "What applicant tracking systems actually check for, the formatting mistakes that get resumes auto-rejected, and what really improves your odds.",
         "date": "August 11, 2026",

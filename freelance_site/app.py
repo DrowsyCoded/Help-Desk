@@ -184,6 +184,26 @@ finished copy. If you need someone to write it too, that's separate work.</li>
 one you expect to update weekly.</li>
 </ul>
 
+<h2>What This Actually Looks Like</h2>
+<p>Numbers in the abstract don't mean much, so here are three realistic scenarios based on the
+kind of work that actually comes through the door:</p>
+<ul>
+<li><strong>A five-page site for a local bakery or barbershop.</strong> Homepage, about, services
+or menu, gallery, contact form. No booking system, no e-commerce, content mostly provided by the
+owner. This is squarely freelancer territory: <strong>$600–$1,200</strong>, or free to about
+$20/month if the owner builds it themselves on a platform.</li>
+<li><strong>An eight-to-ten-page site with content written from scratch.</strong> Same structure as
+above, but the business needs someone to actually write the copy, not just plug in what they hand
+over, plus a blog section for SEO. That extra writing work pushes it to
+<strong>$1,500–$3,000</strong> with a freelancer, since it's design and copywriting combined.</li>
+<li><strong>A site with online ordering, booking, or a product catalog.</strong> Once you add real
+functionality, custom logic, and testing, you're past what most freelancers price casually and
+into <strong>$3,000–$8,000+</strong> territory, often agency work, sometimes a freelancer who
+specializes in that kind of build.</li>
+</ul>
+<p>The pattern holds across all three: pages and content are what push the price up, not the
+platform or who's building it.</p>
+
 <h2>Costs Beyond the Build</h2>
 <p>The build price is rarely the whole story. Budget for these too, regardless of who builds
 your site:</p>

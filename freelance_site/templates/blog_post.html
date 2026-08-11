@@ -11,6 +11,12 @@
   </div>
 </section>
 
+{% if post.image %}
+<section class="section-inner">
+  <img class="article-cover" src="{{ url_for('static', filename='images/' + post.image) }}" alt="{{ post.title }}">
+</section>
+{% endif %}
+
 <section>
   <div class="section-inner">
     <article class="article-body">

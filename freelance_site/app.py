@@ -152,6 +152,7 @@ software.</p>
     },
     {
         "slug": "how-much-does-a-small-business-website-cost",
+        "image": "blog-website-cost-cover.jpg",
         "title": "How Much Does a Small Business Website Actually Cost in 2026?",
         "description": "A straight answer on small business website pricing — DIY builders, freelancers, and agencies — plus the costs that show up after launch.",
         "date": "August 11, 2026",

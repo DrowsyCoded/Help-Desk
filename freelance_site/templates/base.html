@@ -8,7 +8,7 @@
 <meta property="og:type" content="website">
 <meta property="og:title" content="{% block og_title %}{{ self.title() }}{% endblock %}">
 <meta property="og:description" content="{% block og_description %}{{ self.description() }}{% endblock %}">
-<meta property="og:image" content="{{ url_for('static', filename='images/cover.jpg', _external=True) }}">
+<meta property="og:image" content="{{ url_for('static', filename='images/' + (post.image if post is defined and post and post.image else 'cover.jpg'), _external=True) }}">
 <meta property="og:url" content="{{ request.url }}">
 <meta name="twitter:card" content="summary_large_image">
 <link rel="preconnect" href="https://fonts.googleapis.com">

@@ -618,6 +618,15 @@ section { padding: 110px 24px; }
 
 .back-link:hover { color: var(--gold); }
 
+.article-cover {
+  display: block;
+  width: 100%;
+  max-width: 720px;
+  margin: 0 auto 2rem;
+  border-radius: 12px;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.35);
+}
+
 .article-body {
   max-width: 720px;
   margin: 0 auto;

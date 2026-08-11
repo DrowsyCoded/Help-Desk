@@ -1,0 +1,67 @@
+{% extends "base.html" %}
+{% block title %}About — Jonathon Hunt{% endblock %}
+{% block content %}
+
+<section class="page-hero">
+  <div class="hero-inner">
+    <span class="eyebrow">About</span>
+    <h1>Built by <span class="accent">one person</span>, on purpose.</h1>
+    <p class="hero-sub">No account managers, no outsourcing, no handoffs — just direct work with the person doing it.</p>
+  </div>
+</section>
+
+<section class="section-alt">
+  <div class="section-inner">
+    <div class="process-row">
+      <div class="process-step">
+        <span class="process-num">01</span>
+        <h3>Direct</h3>
+        <p>You work with me, not an account manager relaying messages back and forth.</p>
+      </div>
+      <div class="process-step">
+        <span class="process-num">02</span>
+        <h3>Honest</h3>
+        <p>No inflated promises or guaranteed outcomes I can't actually back up.</p>
+      </div>
+      <div class="process-step">
+        <span class="process-num">03</span>
+        <h3>Reviewed</h3>
+        <p>AI-assisted doesn't mean unchecked — everything is tested before it ships.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="section-inner about-grid">
+    <div class="about-body">
+      <p>I'm <strong>Jonathon Hunt</strong>, a self-taught developer and writer based in Medford,
+        Oregon. I've spent the past year and a half building a freelance practice around web
+        design, resume writing, and content — alongside real hands-on work history in
+        manufacturing and retail.</p>
+      <p>There's no agency, no account managers, no outsourcing. When you work with me, you're
+        working directly with the person designing your site or writing your content — which
+        means fewer handoffs, and someone who actually knows what you asked for.</p>
+      <p>I build with AI-assisted tools, and I'm upfront about that. What I deliver is reviewed,
+        tested, and stands on its own — the tools change how fast I work, not whether the work
+        is good.</p>
+    </div>
+    <aside class="credentials">
+      <h3>At A Glance</h3>
+      <ul class="credential-list">
+        <li><strong>Based In</strong>Medford, Oregon — working with clients remotely</li>
+        <li><strong>Focus</strong>Web design, resume &amp; LinkedIn writing, SEO content</li>
+        <li><strong>Approach</strong>Direct communication, no middlemen, honest turnaround times</li>
+        <li><strong>Availability</strong>Currently booking new projects</li>
+      </ul>
+    </aside>
+  </div>
+</section>
+
+<section class="contact-band">
+  <span class="eyebrow">Get In Touch</span>
+  <h2>Want to work together?</h2>
+  <a class="btn btn-solid" href="{{ url_for('contact') }}">Start A Project</a>
+</section>
+
+{% endblock %}

@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+{% block title %}{{ post.title }} — Jonathon Hunt{% endblock %}
+{% block description %}{{ post.description }}{% endblock %}
+{% block content %}
+
+<section class="page-hero">
+  <div class="hero-inner">
+    <a class="back-link" href="{{ url_for('blog') }}">&larr; Back to Blog</a>
+    <span class="eyebrow">{{ post.date }} &middot; {{ post.read_time }}</span>
+    <h1>{{ post.title }}</h1>
+  </div>
+</section>
+
+<section>
+  <div class="section-inner">
+    <article class="article-body">
+      {{ post.body | safe }}
+    </article>
+  </div>
+</section>
+
+<section class="contact-band">
+  <span class="eyebrow">Get In Touch</span>
+  <h2>Ready to talk about your website?</h2>
+  <a class="btn btn-solid" href="{{ url_for('contact') }}">Start A Project</a>
+</section>
+
+{% endblock %}

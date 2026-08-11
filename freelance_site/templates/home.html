@@ -1,0 +1,75 @@
+{% extends "base.html" %}
+{% block title %}Jonathon Hunt — Strategic Web Design &amp; Content{% endblock %}
+{% block content %}
+
+<section class="hero">
+  <img class="hero-photo" src="{{ url_for('static', filename='images/cover.jpg') }}" alt="" aria-hidden="true">
+  <div class="hero-scrim" aria-hidden="true"></div>
+  <div class="hero-inner">
+    <span class="eyebrow">Web Design &amp; Content</span>
+    <h1>Websites Built On Strategy.<br>Content That <span class="accent">Actually Converts.</span></h1>
+    <p class="hero-sub">I design and build small business websites, and write the resumes, LinkedIn
+      profiles, and content that go with running one — grounded in what your business actually
+      needs, not a template.</p>
+    <div class="hero-actions">
+      <a class="btn btn-solid" href="{{ url_for('contact') }}">Let's Talk</a>
+      <a class="btn btn-ghost" href="{{ url_for('portfolio') }}">See The Work</a>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="section-inner">
+    <div class="section-head">
+      <span class="eyebrow">What I Do</span>
+      <h2>Services built around your business</h2>
+      <p>Four ways I help small businesses look and operate like they mean it.</p>
+    </div>
+    <div class="service-grid">
+      {% for s in services %}
+      <a class="service-card" href="{{ s.link }}" target="_blank" rel="noopener">
+        <span class="service-icon">{{ s.name[0] }}</span>
+        <span class="service-price">{{ s.price }}</span>
+        <h3>{{ s.name }}</h3>
+        <p>{{ s.blurb }}</p>
+        <span class="service-link">View service<span class="sr-only"> (opens in new tab)</span> &rarr;</span>
+      </a>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section-alt">
+  <div class="section-inner">
+    <div class="section-head">
+      <span class="eyebrow">Recent Work</span>
+      <h2>A few things I've built</h2>
+    </div>
+    <div class="portfolio-grid">
+      {% for p in portfolio %}
+      <div class="portfolio-card">
+        <span class="portfolio-tag">{{ p.tag }}</span>
+        <h3>{{ p.name }}</h3>
+        <p>{{ p.blurb }}</p>
+        {% if p.link %}
+        <div class="portfolio-links">
+          <a href="{{ p.link }}" target="_blank" rel="noopener">{{ p.link_label }}<span class="sr-only"> (opens in new tab)</span> &rarr;</a>
+          {% if p.secondary_link %}
+          <a href="{{ p.secondary_link }}" target="_blank" rel="noopener">{{ p.secondary_label }}<span class="sr-only"> (opens in new tab)</span> &rarr;</a>
+          {% endif %}
+        </div>
+        {% endif %}
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="contact-band">
+  <span class="eyebrow">Get In Touch</span>
+  <h2>Let's build something that actually works</h2>
+  <p class="contact-lede">Tell me what you need and I'll reply with next steps — usually within a day.</p>
+  <a class="btn btn-solid" href="{{ url_for('contact') }}">Start A Project</a>
+</section>
+
+{% endblock %}

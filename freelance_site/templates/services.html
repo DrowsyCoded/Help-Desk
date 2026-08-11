@@ -1,0 +1,70 @@
+{% extends "base.html" %}
+{% block title %}Services — Jonathon Hunt{% endblock %}
+{% block content %}
+
+<section class="page-hero">
+  <div class="hero-inner">
+    <span class="eyebrow">Services</span>
+    <h1>What I Do, <span class="accent">And What It Costs.</span></h1>
+    <p class="hero-sub">No hidden tiers, no "contact for quote" games on the writing services —
+      real starting prices. Web design gets a custom quote because every site is different.</p>
+    <span class="status-pill">Currently booking new projects</span>
+  </div>
+</section>
+
+<section>
+  <div class="section-inner">
+    <div class="service-grid">
+      {% for s in services %}
+      <div class="service-card">
+        <span class="service-icon">{{ s.name[0] }}</span>
+        <span class="service-price">{{ s.price }}</span>
+        <h3>{{ s.name }}</h3>
+        <p>{{ s.blurb }}</p>
+        <ul class="service-features">
+          {% for f in s.features %}
+          <li>{{ f }}</li>
+          {% endfor %}
+        </ul>
+        <span class="service-turnaround">{{ s.turnaround }}</span>
+        <a class="service-link" href="{{ s.link }}" target="_blank" rel="noopener">View service<span class="sr-only"> (opens in new tab)</span> &rarr;</a>
+      </div>
+      {% endfor %}
+    </div>
+
+    <div class="process-row">
+      {% for step in process %}
+      <div class="process-step">
+        <span class="process-num">{{ step.num }}</span>
+        <h3>{{ step.name }}</h3>
+        <p>{{ step.blurb }}</p>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section-alt">
+  <div class="section-inner">
+    <div class="section-head">
+      <span class="eyebrow">Questions</span>
+      <h2>Before you reach out</h2>
+    </div>
+    <div class="faq-list">
+      {% for item in faq %}
+      <div class="faq-item">
+        <h3>{{ item.q }}</h3>
+        <p>{{ item.a }}</p>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="contact-band">
+  <span class="eyebrow">Ready When You Are</span>
+  <h2>Tell me what you need built</h2>
+  <a class="btn btn-solid" href="{{ url_for('contact') }}">Get A Free Quote</a>
+</section>
+
+{% endblock %}

@@ -1,0 +1,43 @@
+{% extends "base.html" %}
+{% block title %}Blog — Jonathon Hunt{% endblock %}
+{% block content %}
+
+<section class="page-hero">
+  <div class="hero-inner">
+    <span class="eyebrow">Blog</span>
+    <h1>Writing On Web Design <span class="accent">&amp; Small Business.</span></h1>
+    <p class="hero-sub">Practical posts on websites, SEO, and running a small business online — no filler.</p>
+  </div>
+</section>
+
+<section>
+  <div class="section-inner">
+    <div class="post-list">
+      {% for post in posts %}
+      <a class="post-card" href="{{ url_for('blog_post', slug=post.slug) }}">
+        <span class="post-meta">{{ post.date }} &middot; {{ post.read_time }}</span>
+        <h2>{{ post.title }}</h2>
+        <p>{{ post.excerpt }}</p>
+        <span class="service-link">Read the post &rarr;</span>
+      </a>
+      {% endfor %}
+    </div>
+
+    <div class="post-list-footer">
+      <p class="eyebrow">More On The Way</p>
+      <div class="topic-tags">
+        <span class="topic-tag">SEO Basics</span>
+        <span class="topic-tag">Resume Writing</span>
+        <span class="topic-tag">Running a Small Business Online</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="contact-band">
+  <span class="eyebrow">Get In Touch</span>
+  <h2>Have a question in the meantime?</h2>
+  <a class="btn btn-solid" href="{{ url_for('contact') }}">Get In Touch</a>
+</section>
+
+{% endblock %}

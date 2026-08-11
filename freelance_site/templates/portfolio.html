@@ -1,0 +1,41 @@
+{% extends "base.html" %}
+{% block title %}Portfolio — Jonathon Hunt{% endblock %}
+{% block content %}
+
+<section class="page-hero">
+  <div class="hero-inner">
+    <span class="eyebrow">Portfolio</span>
+    <h1>A Few Things <span class="accent">I've Built.</span></h1>
+    <p class="hero-sub">A new business means a short list — here's what's real, including work still in progress. No padded case studies, no filler.</p>
+  </div>
+</section>
+
+<section>
+  <div class="section-inner">
+    <div class="portfolio-grid">
+      {% for p in portfolio %}
+      <div class="portfolio-card">
+        <span class="portfolio-tag">{{ p.tag }}</span>
+        <h3>{{ p.name }}</h3>
+        <p>{{ p.blurb }}</p>
+        {% if p.link %}
+        <div class="portfolio-links">
+          <a href="{{ p.link }}" target="_blank" rel="noopener">{{ p.link_label }}<span class="sr-only"> (opens in new tab)</span> &rarr;</a>
+          {% if p.secondary_link %}
+          <a href="{{ p.secondary_link }}" target="_blank" rel="noopener">{{ p.secondary_label }}<span class="sr-only"> (opens in new tab)</span> &rarr;</a>
+          {% endif %}
+        </div>
+        {% endif %}
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="contact-band">
+  <span class="eyebrow">Get In Touch</span>
+  <h2>Want something like this for your business?</h2>
+  <a class="btn btn-solid" href="{{ url_for('contact') }}">Start A Project</a>
+</section>
+
+{% endblock %}

@@ -621,10 +621,10 @@ section { padding: 110px 24px; }
 .article-cover {
   display: block;
   width: 100%;
-  max-width: 720px;
-  margin: 0 auto 2rem;
-  border-radius: 12px;
-  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.35);
+  max-width: 760px;
+  margin: 28px auto 0;
+  border-radius: 10px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.28);
 }
 
 .article-body {

@@ -7,15 +7,12 @@
   <div class="hero-inner">
     <a class="back-link" href="{{ url_for('blog') }}">&larr; Back to Blog</a>
     <span class="eyebrow">{{ post.date }} &middot; {{ post.read_time }}</span>
-    <h1>{{ post.title }}</h1>
+    <h1 class="{{ 'sr-only' if post.image }}">{{ post.title }}</h1>
+    {% if post.image %}
+    <img class="article-cover" src="{{ url_for('static', filename='images/' + post.image) }}" alt="{{ post.title }}">
+    {% endif %}
   </div>
 </section>
-
-{% if post.image %}
-<section class="section-inner">
-  <img class="article-cover" src="{{ url_for('static', filename='images/' + post.image) }}" alt="{{ post.title }}">
-</section>
-{% endif %}
 
 <section>
   <div class="section-inner">

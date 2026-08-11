@@ -92,7 +92,7 @@ BLOG_POSTS = [
         "image": "blog-ats-resume-cover.jpg",
         "title": "How to Beat an ATS: What Actually Gets Your Resume Read in 2026",
         "description": "What applicant tracking systems actually check for, the formatting mistakes that get resumes auto-rejected, and what really improves your odds.",
-        "date": "August 11, 2026",
+        "date": "August 10, 2026",
         "read_time": "7 min read",
         "excerpt": "Applicant tracking systems reject resumes for reasons that have nothing to do with your qualifications. Here's what actually trips them up — and what genuinely helps.",
         "body": """
@@ -156,7 +156,7 @@ software.</p>
         "image": "blog-website-cost-cover.jpg",
         "title": "How Much Does a Small Business Website Actually Cost in 2026?",
         "description": "A straight answer on small business website pricing — DIY builders, freelancers, and agencies — plus the costs that show up after launch.",
-        "date": "August 11, 2026",
+        "date": "August 10, 2026",
         "read_time": "6 min read",
         "excerpt": "DIY builder, freelancer, or agency — the real price range for a small business site, what actually drives the cost, and what shows up on the bill after launch.",
         "body": """

@@ -28,7 +28,10 @@ survives restarts, unlike Render/Fly.io free tiers) and a permanent public URL l
    - **Source code**: `/home/<yourusername>/<your-repo>`
    - **Working directory**: same path
    - **Virtualenv**: `/home/<yourusername>/.virtualenvs/helpdesk-env`
-   - **Static files**: URL `/static/` -> Directory `/home/<yourusername>/<your-repo>/static`
+   - **Static files** -- the repo now serves TWO apps (the freelance site at `/`, the
+     tracker at `/tracker`), so add both mappings:
+     - URL `/static/` -> Directory `/home/<yourusername>/<your-repo>/freelance_site/static`
+     - URL `/tracker/static/` -> Directory `/home/<yourusername>/<your-repo>/static`
 8. **Edit the WSGI configuration file** (linked from the Web tab). Replace its contents with:
    ```python
    import sys
@@ -36,13 +39,13 @@ survives restarts, unlike Render/Fly.io free tiers) and a permanent public URL l
    if path not in sys.path:
        sys.path.insert(0, path)
 
-   from database import init_db
-   init_db()
-
-   from app import app as application
+   from combined_wsgi import application
    ```
+   `combined_wsgi.py` handles `init_db()` and mounts both Flask apps itself -- see that file
+   for details.
 9. Click the big green **Reload** button on the Web tab. Visit your `.pythonanywhere.com`
-   URL -- you should land on the login/submit-a-ticket page.
+   URL -- you should land on the new freelance site homepage; `/tracker` still serves the
+   Help Desk Ticket Tracker login/submit-a-ticket page.
 
 ## Making future updates
 

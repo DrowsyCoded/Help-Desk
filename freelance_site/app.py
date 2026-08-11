@@ -232,6 +232,56 @@ real question isn't "what's the cheapest option" but "what does this business ac
 look credible and work correctly," and pricing from there.</p>
 """,
     },
+    {
+        "slug": "why-your-small-business-isnt-showing-up-on-google",
+        "image": "blog-google-seo-cover.jpg",
+        "title": "Why Your Small Business Isn't Showing Up on Google",
+        "description": "The real reasons small business websites don't show up in local search, and the fundamentals that actually move the needle, from your Google Business Profile to reviews to page speed.",
+        "date": "August 11, 2026",
+        "read_time": "5 min read",
+        "excerpt": "Having a website doesn't mean people can find it. Here's what actually determines whether your business shows up when someone searches, and why rebuilding the site usually isn't the first fix.",
+        "body": """
+<p>A lot of small business owners assume having a website means people can find it. That's not really
+how it works. I've had more than one client tell me their site has been live for two years and
+they've never gotten a single customer from it. Almost every time, the problem isn't the website
+itself. It's that Google has no reason to think the site matters yet.</p>
+
+<h2>Start With Your Google Business Profile, Not Your Website</h2>
+<p>If you search for a plumber or a bakery near you, most of what shows up isn't website rankings,
+it's the map pack, those three listings with a star rating and a phone number. That comes from your
+Google Business Profile, which is free and separate from your website. If you haven't claimed and
+filled that out completely, hours, categories, photos, service area, that's the first thing to fix,
+before anything else.</p>
+
+<h2>Reviews Matter More Than People Expect</h2>
+<p>A business with 40 reviews and a 4.6 star average will usually beat a business with zero reviews
+and a technically better website. It's not just a trust signal for customers, it's one of the
+stronger local ranking factors Google uses. If you've never asked happy customers to leave a
+review, that's free ground you're giving up.</p>
+
+<h2>Your Website Still Needs the Basics Covered</h2>
+<p>Once the profile and reviews are in place, the website itself needs to actually say what you do
+and where you do it. That sounds obvious, but I see sites that never mention the city or region
+they serve anywhere in the text, just in a logo or a footer address. If your homepage doesn't say
+"we're a landscaping company serving Medford and the Rogue Valley," Google has less reason to
+connect you with someone searching for exactly that.</p>
+
+<h2>Speed and Mobile Aren't Optional Anymore</h2>
+<p>Most local searches happen on a phone, in the car, standing in a parking lot. If your site takes
+eight seconds to load or the text is too small to read without zooming, people leave, and Google
+notices that too. This is one of the most common issues I find on older small business sites,
+especially ones built years ago on outdated platforms.</p>
+
+<h2>The Honest Timeline</h2>
+<p>None of this happens overnight. Local SEO is closer to compounding interest than a light switch,
+small consistent improvements add up over months, not days. Anyone who promises page one rankings
+in a week is selling something. What actually works is getting the fundamentals right and staying
+consistent, the profile, the reviews, the on-page basics, and giving it time to build.</p>
+
+<p>If your business has a website that isn't bringing in customers, it's worth a real look at whether
+these basics are actually in place before assuming the site needs to be rebuilt from scratch.</p>
+""",
+    },
 ]
 
 PROCESS_STEPS = [

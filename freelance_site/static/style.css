@@ -541,6 +541,17 @@ section { padding: 110px 24px; }
 
 .credential-list strong { display: block; color: var(--text); font-size: 0.95rem; margin-bottom: 2px; }
 
+.credential-list a {
+  display: inline-block;
+  margin-top: 6px;
+  color: var(--gold);
+  font-size: 0.8rem;
+  font-weight: 700;
+  border-bottom: 1px solid var(--gold-dim);
+}
+
+.credential-list a:hover { border-bottom-color: var(--gold); }
+
 /* ---------- blog coming soon ---------- */
 .coming-soon {
   text-align: center;

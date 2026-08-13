@@ -86,9 +86,18 @@ PORTFOLIO = [
     },
     {
         "name": "Hoosier Honey Farm",
-        "tag": "Website redesign — in progress",
-        "blurb": "An in-progress redesign for a bee rescue apiary, staying inside their "
-                 "existing free platform to fit their budget.",
+        "tag": "Website redesign",
+        "blurb": "A redesign for a bee rescue apiary, staying inside their existing free "
+                 "platform to fit their budget.",
+        "link": None,
+        "link_label": None,
+    },
+    {
+        "name": "Faith-Based Lifestyle Brand",
+        "tag": "Shopify copywriting — in progress",
+        "blurb": "A homepage and product description rewrite for a Shopify store selling "
+                 "faith-based digital products, alongside an image audit flagging AI-generated "
+                 "and mismatched photography with real replacement recommendations.",
         "link": None,
         "link_label": None,
     },

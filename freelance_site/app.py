@@ -77,18 +77,22 @@ PORTFOLIO = [
         "link_label": None,
     },
     {
-        "name": "Butcher Bob's",
+        "name": "Family Butcher Shop",
         "tag": "Website mockup",
-        "blurb": "A homepage redesign built for a family butcher shop open since 1988, "
-                 "matching their existing branding and product lines.",
+        "blurb": "A full homepage redesign mockup for a family-owned butcher shop open since "
+                 "1988, built to match their existing color palette and branding, real product "
+                 "lines, and store details, delivered as a ready-to-view design before any "
+                 "platform changes were made.",
         "link": None,
         "link_label": None,
     },
     {
-        "name": "Hoosier Honey Farm",
+        "name": "Bee Rescue Apiary",
         "tag": "Website redesign",
-        "blurb": "A redesign for a bee rescue apiary, staying inside their existing free "
-                 "platform to fit their budget.",
+        "blurb": "A full redesign of a bee rescue apiary's existing Google Sites page, "
+                 "covering the homepage, shop, and educational content, staying on their "
+                 "existing free platform and iterated with the client before touching the "
+                 "live site.",
         "link": None,
         "link_label": None,
     },

@@ -380,6 +380,72 @@ I look for when I audit a client's site, and it's worth checking before you assu
 somewhere else entirely.</p>
 """,
     },
+    {
+        "slug": "how-to-write-product-descriptions-that-sound-like-you",
+        "icon": "pencil",
+        "title": "How to Write Product Descriptions That Sound Like You, Not a Template",
+        "description": "Why most ecommerce product descriptions read the same, where a founder's real voice actually lives, and a practical process for writing copy that sounds like a person instead of a template.",
+        "date": "August 13, 2026",
+        "read_time": "6 min read",
+        "excerpt": "Most product pages read like they were written by whoever was available that day, not the person who actually built the thing. Here's where the real voice is hiding, and how to get it onto the page.",
+        "body": """
+<p>I rewrote a full set of product descriptions this week for a client, and the biggest thing I
+learned had nothing to do with the products themselves. It's that almost nobody writes their own
+product descriptions in their own voice, even when they're the one who built the thing being sold.
+They default to the same flat, feature-list tone every other store uses, because that's what
+"product description" sounds like in their head. It doesn't have to.</p>
+
+<h2>Why Most Product Descriptions Sound the Same</h2>
+<p>Open ten random product pages and you'll notice the pattern fast: a bolded feature, a short
+benefit clause, repeat. "Premium quality materials." "Perfect for everyday use." None of it is
+wrong exactly, it's just interchangeable. You could swap the product name on half of these
+descriptions and nothing would feel off. That's the actual problem. Not bad grammar, not typos,
+just a total absence of anyone specific behind the words.</p>
+
+<h2>Where the Real Voice Actually Lives</h2>
+<p>The client I mentioned had this exact problem, generic copy on a site that was otherwise doing
+fine. When I asked a handful of direct questions (what made you build this, which product are you
+proudest of, what does a customer usually tell you after they buy it), the answers were sharper
+and more specific than anything already on the site. He'd also put together a free guide for his
+own customers at some point, and that document had more voice in one paragraph than the entire
+product catalog combined. The real writing was already out there. It just hadn't made it onto the
+product pages yet.</p>
+<p>This is true almost every time. A founder's actual voice is usually sitting somewhere already,
+an email reply, a lead magnet, a video transcript, a text they sent a customer once, not because
+they're hiding it, but because nobody thought to go looking for it before writing new copy from
+scratch.</p>
+
+<h2>A Practical Process</h2>
+<ul>
+<li><strong>Mine what already exists.</strong> Before writing a single new sentence, read
+anything the business owner has already written in their own words: about pages, email replies,
+social captions, a PDF guide, anything. Pull actual phrases, not just ideas.</li>
+<li><strong>Ask questions a customer would actually ask.</strong> Not "tell me about your
+brand," that gets a rehearsed answer. Ask which product they're proudest of, what a real customer
+said after buying, what almost stopped them from making the thing at all.</li>
+<li><strong>Keep the specific, cut the generic.</strong> If a sentence could describe a
+competitor's product just as easily, it's not doing its job. Replace it with something only true
+of this product, made by this person.</li>
+<li><strong>Write it like you'd say it out loud.</strong> If a business owner wouldn't actually
+say a sentence to a customer standing in front of them, it probably doesn't belong on the page
+either.</li>
+</ul>
+
+<h2>SEO Without Sounding Like SEO</h2>
+<p>You can still lead a description with the phrase a customer would actually type into Google,
+you just don't have to make it sound like you're talking to Google instead of a person. A line
+like "a daily prayer devotional for dads who want to lead their family in faith" covers real
+search intent and still reads like a sentence a human wrote, because it is one. Keyword-stuffing
+and authentic copy aren't actually opposites. The trick is writing the search phrase the way a
+real person would say it, not the way a spreadsheet would.</p>
+
+<h2>Bottom Line</h2>
+<p>A product description's job is to sound like the person who made the thing, not like a
+template with the product name swapped in. If your own product pages feel like they could belong
+to any store, the fix usually isn't a rewrite from scratch, it's going back to find the voice
+that's already sitting in your own words somewhere, and building the copy around that instead.</p>
+""",
+    },
 ]
 
 PROCESS_STEPS = [

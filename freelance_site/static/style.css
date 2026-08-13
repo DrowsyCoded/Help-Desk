@@ -216,14 +216,13 @@ img, canvas { max-width: 100%; display: block; }
 
 .hero-photo {
   position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: auto;
-  width: 62%;
-  height: 100%;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 2048 / 768;
+  transform: translateY(-50%);
   object-fit: cover;
-  object-position: center center;
   mix-blend-mode: screen;
   opacity: 0.92;
 }
@@ -233,11 +232,7 @@ img, canvas { max-width: 100%; display: block; }
   inset: 0;
   background: linear-gradient(90deg,
     var(--bg) 0%,
-    var(--bg) 30%,
-    rgba(10,10,11,0.8) 35%,
-    rgba(10,10,11,0.5) 40%,
-    rgba(10,10,11,0.25) 45%,
-    transparent 50%);
+    transparent 5%);
 }
 
 @media (max-width: 860px) {
@@ -268,6 +263,7 @@ img, canvas { max-width: 100%; display: block; }
   font-size: 1.1rem;
   max-width: 440px;
   margin: 22px 0 40px;
+  text-shadow: 0 2px 14px rgba(0, 0, 0, 0.85), 0 0 4px rgba(0, 0, 0, 0.6);
 }
 
 .hero-inner.centered .hero-sub { margin-left: auto; margin-right: auto; }

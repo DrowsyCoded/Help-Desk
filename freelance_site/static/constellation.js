@@ -1,12 +1,11 @@
 // Page-wide constellation/network background -- gold nodes, thin connecting lines, gentle
 // drift, plus a slow parallax shift tied to scroll position. Fixed to the viewport so it stays
-// visible behind every section as the page scrolls. Respects prefers-reduced-motion (static
-// frame, no drift animation, no parallax).
+// visible behind every section as the page scrolls. Always animates, regardless of the
+// visitor's reduced-motion preference (an explicit design choice, not an oversight).
 (function () {
   var canvas = document.querySelector('.page-canvas');
   if (!canvas) return;
   var ctx = canvas.getContext('2d');
-  var reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
   var W, H, DPR;
   var nodes = [];
@@ -40,12 +39,30 @@
   }
 
   function step() {
+    var margin = 80;
+    var maxSpeed = 0.35;
     for (var i = 0; i < nodes.length; i++) {
       var n = nodes[i];
+
+      // gentle random wander so direction changes feel organic, not mechanical
+      n.vx += (Math.random() - 0.5) * 0.01;
+      n.vy += (Math.random() - 0.5) * 0.01;
+
+      // soft steering back inward near the edges instead of a hard velocity-flip bounce
+      if (n.x < margin) n.vx += 0.006;
+      if (n.x > W - margin) n.vx -= 0.006;
+      if (n.y < margin) n.vy += 0.006;
+      if (n.y > H - margin) n.vy -= 0.006;
+
+      // clamp speed so the drift stays smooth and consistent, never jumpy
+      var speed = Math.sqrt(n.vx * n.vx + n.vy * n.vy);
+      if (speed > maxSpeed) {
+        n.vx = (n.vx / speed) * maxSpeed;
+        n.vy = (n.vy / speed) * maxSpeed;
+      }
+
       n.x += n.vx;
       n.y += n.vy;
-      if (n.x < 0 || n.x > W) n.vx *= -1;
-      if (n.y < 0 || n.y > H) n.vy *= -1;
     }
   }
 
@@ -97,10 +114,8 @@
   resize();
   seed();
   draw();
-  if (!reduced) {
-    requestAnimationFrame(loop);
-    window.addEventListener('scroll', onScroll, { passive: true });
-  }
+  requestAnimationFrame(loop);
+  window.addEventListener('scroll', onScroll, { passive: true });
 
   var resizeTimer;
   window.addEventListener('resize', function () {

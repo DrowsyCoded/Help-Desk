@@ -231,8 +231,7 @@ img, canvas { max-width: 100%; display: block; }
   aspect-ratio: 2048 / 768;
   transform: translateY(-50%);
   object-fit: cover;
-  mix-blend-mode: screen;
-  opacity: 0.92;
+  opacity: 0.96;
 }
 
 .hero-scrim {

@@ -517,6 +517,140 @@ That's the same process I use for every client's catalog, mine what's already re
 questions, and cut anything that could belong to someone else.</p>
 """,
     },
+    {
+        "slug": "seo-basics-for-small-business-websites",
+        "icon": "chart",
+        "title": "SEO Basics Every Small Business Website Needs",
+        "description": "A plain-language guide to on-page SEO fundamentals for small business websites: title tags, headers, URL structure, content, site speed, internal links, and a realistic timeline for results.",
+        "date": "August 13, 2026",
+        "read_time": "13 min read",
+        "excerpt": "Your Google Business Profile gets you found on the map. Your actual website still needs its own SEO fundamentals in place, or none of that traffic converts once it lands. Here's what actually matters, and how to check your own site in ten minutes.",
+        "body": """
+<p>A client called me a few months back convinced his website was broken. Traffic had flatlined,
+new inquiries had dried up, and he was ready to pay for a full rebuild. The site wasn't broken.
+It loaded fine, looked decent, had real products on it. But every single page shared the exact
+same page title ("Home"), there wasn't a single H1 tag anywhere on the site, and the URLs were a
+string of random numbers his old website builder had generated automatically. Google had no real
+idea what any individual page was actually about, so it had nothing to rank. That's not a rebuild
+problem. That's an SEO fundamentals problem, and it's one of the most common things I run into on
+small business sites that otherwise look completely fine.</p>
+<p>I've written before about why a lot of small businesses aren't showing up on Google, and most
+of that comes down to the Google Business Profile, reviews, and the basics Google uses to rank
+local results. This post is the other half of that. Once someone actually lands on your website,
+a separate set of fundamentals takes over: the actual on-page SEO of the site itself. This is the
+part people skip because it sounds technical. Most of it isn't. Here's what actually matters, in
+plain language, and a way to check your own site against it in about ten minutes.</p>
+
+<h2>What SEO Actually Is, Without the Jargon</h2>
+<p>Strip away the acronyms and SEO is just making it easy for both Google and an actual human to
+understand what a page is about and whether it answers their question. That's the whole concept.
+Everything else, keywords, meta tags, headers, backlinks, is just the mechanics of doing that
+clearly and consistently across a site. If you keep that one definition in mind, almost every SEO
+decision gets a lot easier to make, because you can just ask: does this make the page clearer, or
+murkier?</p>
+
+<h2>Title Tags and Meta Descriptions</h2>
+<p>The title tag is the blue link text in a Google search result, and it's one of the strongest
+signals on the entire page for both ranking and getting someone to actually click. A vague title
+like "Home" or "Welcome to Our Website", the exact mistake my client's site was making on every
+single page, wastes that space entirely and gives Google nothing to distinguish one page from
+another. A better title says what the page is and where, something like "Custom Cabinets in
+Medford, Oregon | Riverside Woodworks." Specific, includes what you do, includes where.</p>
+<p>Every page on a site needs its own unique title. If your about page, your homepage, and your
+services page all say the same thing, you've told Google those pages are interchangeable, and
+it'll treat them that way in results.</p>
+<p>The meta description is the paragraph underneath the title in search results. It doesn't
+directly affect ranking much anymore, but it's still your pitch for the click, so write it like
+ad copy, not a summary. One or two sentences on what a visitor gets and why this page instead of
+a competitor's.</p>
+
+<h2>Headers and Page Structure</h2>
+<p>Every page should have exactly one H1, and it should describe what the page is about in plain
+language, not a clever tagline. Everything under it uses H2s and H3s to break the page into
+scannable sections, the same way a well-organized document uses headings. This isn't just for
+Google, it's for the visitor who's skimming the page in four seconds to decide if it's worth
+reading further. A wall of unbroken text loses both.</p>
+
+<h2>URL Structure</h2>
+<p>A URL like <code>yoursite.com/p?id=4471&cat=9</code> tells a search engine and a human
+nothing. A URL like <code>yoursite.com/products/cedar-planters</code> tells both exactly what's
+there before the page even loads. Keep URLs short, readable, and built from real words, not
+auto-generated IDs.</p>
+
+<h2>Content and Keyword Use, Without Stuffing</h2>
+<p>Write the way a customer would actually search, not the way a brochure would describe the
+business. If people search "emergency plumber Medford Oregon," a page that only ever says
+"residential plumbing solutions" is missing an easy match. The fix isn't repeating the exact
+phrase five times, it's using the words a real customer would use, naturally, in the first couple
+sentences and a header or two. One clear match beats ten forced ones.</p>
+
+<h2>Site Speed and Mobile Friendliness</h2>
+<p>Most local searches happen on a phone, often while someone's already moving toward a decision.
+If a page takes eight seconds to load or the text is too small to read without zooming, most
+people leave before they ever see what you offer, and Google notices that drop-off too. This is
+one of the most common issues on older small business sites, especially ones built years ago on
+platforms that were never optimized for mobile in the first place.</p>
+
+<h2>Internal Linking</h2>
+<p>Link between your own pages when it makes sense: a blog post about cabinet care linking to the
+cabinets product page, a services page linking to a relevant past project. This does two things:
+it helps a visitor find more of what they're looking for, and it helps Google understand which
+pages on your site are most important by how often they're linked to internally.</p>
+
+<h2>Backlinks, Briefly</h2>
+<p>A backlink is another website linking to yours, and it's still one of the stronger ranking
+signals that exists. For most small businesses, the realistic path to this isn't a big campaign,
+it's local: getting listed in your city's business directory, a mention from a supplier or
+partner, a local news writeup, a guest post on a related local blog. A handful of genuine local
+links does more than a hundred low-quality ones from nowhere in particular.</p>
+
+<h2>A Realistic Timeline</h2>
+<p>None of this moves overnight. Google needs to recrawl and reassess a page, and that process
+typically plays out over weeks and months, not days. Anyone promising page one rankings in a week
+is selling something. What actually works is getting these fundamentals right once, keeping them
+consistent as you add pages, and letting the compounding effect build over time.</p>
+
+<h2>Common SEO Myths That Waste Your Time</h2>
+<p>A few things I hear constantly that just aren't true anymore, or never were:</p>
+<ul>
+<li><strong>"I need to submit my site to Google."</strong> You don't. Google finds and crawls
+new sites on its own within days, usually, as long as nothing is actively blocking it.</li>
+<li><strong>"More keywords is always better."</strong> Repeating a phrase unnaturally reads badly
+to visitors and can actually work against you. One clear, natural mention beats ten forced ones.</li>
+<li><strong>"SEO is a one-time project."</strong> Rankings aren't permanent. A site that hasn't
+been touched in three years while competitors keep publishing will slowly lose ground even if
+nothing about it "broke."</li>
+<li><strong>"Paying for backlinks works."</strong> Buying links from low-quality link farms is one
+of the few things that can actively get a site penalized. It's not a shortcut, it's a risk.</li>
+</ul>
+
+<h2>A 10-Minute Self-Audit You Can Do Right Now</h2>
+<p>Open your own website and check these five things before assuming you need to hire anyone:</p>
+<ul>
+<li>Open three different pages and look at the browser tab text. Is every single one identical,
+or does each say something specific about that page?</li>
+<li>Right-click any page and view the page source (or just look for the big, bold heading text).
+Is there exactly one clear H1, or none at all?</li>
+<li>Look at your URLs. Do they read like <code>/services/kitchen-remodel</code>, or like a string
+of random numbers and letters?</li>
+<li>Pull up your site on your phone using mobile data, not wifi. Does it load in a couple of
+seconds, and is the text readable without pinching to zoom?</li>
+<li>Read your homepage's first paragraph out loud. Does it say what you do and where, in plain
+words a customer would actually type into Google?</li>
+</ul>
+<p>If you found even one real problem in that list, that's usually the highest-leverage fix
+available, higher than a full redesign, and often something that can be corrected in an
+afternoon rather than a rebuild.</p>
+
+<h2>Bottom Line</h2>
+<p>My client's "broken" website didn't need a rebuild. It needed unique titles, one clear H1 per
+page, real words in the URLs, and content written the way his actual customers searched, not the
+way his old builder had auto-generated things years earlier. None of that requires a specialized
+SEO tool or a monthly retainer to get right the first time. A clear title tag, proper page
+structure, and a site that loads fast on a phone will put a small business ahead of most of its
+local competitors, who are still skipping these exact same basics.</p>
+""",
+    },
 ]
 
 PROCESS_STEPS = [

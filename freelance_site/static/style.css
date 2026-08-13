@@ -763,6 +763,74 @@ section { padding: 110px 24px; }
 
 .footer-links a:hover, .footer-social a:hover { color: var(--gold); }
 
+.share-widget { position: relative; margin-top: 4px; }
+
+.share-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 16px;
+  border: 1px solid var(--gold-dim);
+  color: var(--gold);
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  cursor: pointer;
+  list-style: none;
+  width: fit-content;
+}
+
+.share-toggle::-webkit-details-marker { display: none; }
+
+.share-toggle:hover { border-color: var(--gold); }
+
+.share-toggle svg { width: 15px; height: 15px; }
+
+.share-menu {
+  position: absolute;
+  bottom: calc(100% + 10px);
+  left: 0;
+  background: var(--surface-2);
+  border: 1px solid var(--line);
+  border-top: 2px solid var(--gold);
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  min-width: 190px;
+  z-index: 30;
+}
+
+.share-menu a, .share-menu button {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 8px;
+  font-size: 0.85rem;
+  font-family: inherit;
+  color: var(--text-muted);
+  background: none;
+  border: none;
+  text-align: left;
+  cursor: pointer;
+}
+
+.share-menu a:hover, .share-menu button:hover { color: var(--text); }
+
+.share-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 22px;
+  height: 22px;
+  border: 1px solid var(--gold-dim);
+  color: var(--gold);
+  font-size: 0.68rem;
+  font-weight: 700;
+  flex-shrink: 0;
+}
+
 .footer-bottom {
   max-width: var(--max-width);
   margin: 0 auto;

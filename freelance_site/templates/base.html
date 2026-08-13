@@ -66,6 +66,26 @@
       <a href="https://www.fiverr.com/jonathonjhunt" target="_blank" rel="noopener">Fiverr<span class="sr-only"> (opens in new tab)</span></a>
       <a href="https://github.com/DrowsyCoded" target="_blank" rel="noopener">GitHub<span class="sr-only"> (opens in new tab)</span></a>
       <a href="https://wa.me/14583298300" target="_blank" rel="noopener">WhatsApp<span class="sr-only"> (opens in new tab)</span></a>
+      <details class="share-widget">
+        <summary class="share-toggle">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="2.5"></circle><circle cx="6" cy="12" r="2.5"></circle><circle cx="18" cy="19" r="2.5"></circle><path d="M8.2 10.7l7.6-4.4M8.2 13.3l7.6 4.4"></path></svg>
+          Share
+        </summary>
+        <div class="share-menu">
+          <a href="https://www.facebook.com/sharer/sharer.php?u={{ request.url | urlencode }}" target="_blank" rel="noopener">
+            <span class="share-icon">f</span> Facebook<span class="sr-only"> (opens in new tab)</span>
+          </a>
+          <a href="https://twitter.com/intent/tweet?url={{ request.url | urlencode }}&amp;text={{ self.title() | urlencode }}" target="_blank" rel="noopener">
+            <span class="share-icon">X</span> X<span class="sr-only"> (opens in new tab)</span>
+          </a>
+          <a href="https://www.linkedin.com/sharing/share-offsite/?url={{ request.url | urlencode }}" target="_blank" rel="noopener">
+            <span class="share-icon">in</span> LinkedIn<span class="sr-only"> (opens in new tab)</span>
+          </a>
+          <button type="button" class="share-copy" data-url="{{ request.url }}">
+            <span class="share-icon">&#128279;</span> <span class="share-copy-label">Copy Link</span>
+          </button>
+        </div>
+      </details>
     </div>
   </div>
   <div class="footer-bottom">&copy; 2026 Jonathon Hunt · Medford, Oregon</div>

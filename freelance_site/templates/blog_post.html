@@ -7,14 +7,28 @@
   <div class="hero-inner">
     <a class="back-link" href="{{ url_for('blog') }}">&larr; Back to Blog</a>
     <span class="eyebrow">{{ post.date }} &middot; {{ post.read_time }}</span>
-    <h1 class="{{ 'sr-only' if post.image }}">{{ post.title }}</h1>
-    {% if post.image %}
-    <img class="article-cover" src="{{ url_for('static', filename='images/' + post.image) }}" alt="{{ post.title }}">
+    {% if post.icon %}
+    <div class="article-cover-card">
+      <div class="article-cover-icon">
+        {% if post.icon == 'resume' %}
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M6 3h9l4 4v14a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1z"></path><path d="M14 3v5h5"></path><path d="M9 13.5l2 2 4-4.5"></path></svg>
+        {% elif post.icon == 'cost' %}
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12.6 3.5H6.5A1 1 0 0 0 5.5 4.5v6.1a1 1 0 0 0 .3.7l9 9a1 1 0 0 0 1.4 0l6.1-6.1a1 1 0 0 0 0-1.4l-9-9a1 1 0 0 0-.7-.3z"></path><circle cx="9.5" cy="8.5" r="1.25"></circle></svg>
+        {% elif post.icon == 'seo' %}
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="10.5" cy="10.5" r="6.5"></circle><path d="M15.3 15.3L21 21"></path><path d="M7.5 12l2-2.5 1.8 1.5L14 8"></path></svg>
+        {% elif post.icon == 'eye' %}
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M2 12s3.6-7 10-7 10 7 10 7-3.6 7-10 7-10-7-10-7z"></path><circle cx="12" cy="12" r="3"></circle></svg>
+        {% endif %}
+      </div>
+      <h1>{{ post.title }}</h1>
+    </div>
+    {% else %}
+    <h1>{{ post.title }}</h1>
     {% endif %}
   </div>
 </section>
 
-<section class="{{ 'article-section-tight' if post.image }}">
+<section class="{{ 'article-section-tight' if post.icon }}">
   <div class="section-inner">
     <article class="article-body">
       {{ post.body | safe }}

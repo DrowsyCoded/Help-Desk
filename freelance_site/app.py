@@ -89,7 +89,7 @@ PORTFOLIO = [
 BLOG_POSTS = [
     {
         "slug": "how-to-beat-an-ats-resume-2026",
-        "image": "blog-ats-resume-cover.jpg",
+        "icon": "resume",
         "title": "How to Beat an ATS: What Actually Gets Your Resume Read in 2026",
         "description": "What applicant tracking systems actually check for, the formatting mistakes that get resumes auto-rejected, and what really improves your odds.",
         "date": "August 10, 2026",
@@ -153,7 +153,7 @@ software.</p>
     },
     {
         "slug": "how-much-does-a-small-business-website-cost",
-        "image": "blog-website-cost-cover.jpg",
+        "icon": "cost",
         "title": "How Much Does a Small Business Website Actually Cost in 2026?",
         "description": "A straight answer on small business website pricing — DIY builders, freelancers, and agencies — plus the costs that show up after launch.",
         "date": "August 10, 2026",
@@ -234,7 +234,7 @@ look credible and work correctly," and pricing from there.</p>
     },
     {
         "slug": "why-your-small-business-isnt-showing-up-on-google",
-        "image": "blog-google-seo-cover.jpg",
+        "icon": "seo",
         "title": "Why Your Small Business Isn't Showing Up on Google",
         "description": "The real reasons small business websites don't show up in local search, and the fundamentals that actually move the needle, from your Google Business Profile to reviews to page speed.",
         "date": "August 11, 2026",
@@ -280,6 +280,82 @@ consistent, the profile, the reviews, the on-page basics, and giving it time to 
 
 <p>If your business has a website that isn't bringing in customers, it's worth a real look at whether
 these basics are actually in place before assuming the site needs to be rebuilt from scratch.</p>
+""",
+    },
+    {
+        "slug": "is-your-website-using-ai-generated-stock-photos",
+        "icon": "eye",
+        "title": "Is Your Website Using AI-Generated Stock Photos? Here's How Customers Can Tell",
+        "description": "How to spot AI-generated and generic stock photography on a small business website, why it quietly costs you customer trust, and what to use instead.",
+        "date": "August 13, 2026",
+        "read_time": "6 min read",
+        "excerpt": "Most visitors can't say why a photo feels off, but they notice. Here's what actually gives away an AI-generated or mismatched stock image, and what I replaced my own site's with.",
+        "body": """
+<p>I spent part of this week going through a client's website image by image, flagging which
+photos looked genuine and which ones looked generated. It's become a bigger part of my process
+than I expected, because it turns out a lot of small business sites have this problem, including,
+until a few days ago, mine. Three blog covers on this exact site were AI-generated images of a
+room that doesn't exist. I'll get to what I replaced them with, but first, the tells.</p>
+
+<h2>What Actually Gives It Away</h2>
+<p>Most visitors won't consciously clock a photo as AI-generated. They'll just feel a little less
+sure about the business, without knowing why. But if you look closely, the signs are usually
+there:</p>
+<ul>
+<li><strong>Hands doing something specific.</strong> Writing, holding a tool, gesturing mid-conversation.
+This is still where generators struggle most: fingers that grip an object at an impossible angle,
+a pen that seems to merge into the hand instead of resting in it.</li>
+<li><strong>Lighting that's too even.</strong> Real firelight, lamp light, and sunset light are
+directional and a little messy. Generated "golden hour" scenes tend to glow evenly across every
+face in the frame, like the light source is coming from everywhere at once.</li>
+<li><strong>A scene that's a little too on-the-nose.</strong> A cash jar labeled "mission" next to a
+globe. A hoodie-wearing man journaling in perfect side-lighting. When a photo illustrates a concept
+that literally, it's usually because someone typed that concept into a prompt box.</li>
+<li><strong>The same photo, doing double duty.</strong> If a business's "About" page and a client
+testimonial section use the exact same generic desk-and-coffee-cup photo, neither one was taken
+for that business specifically.</li>
+<li><strong>Backgrounds that don't quite hold together.</strong> Bookshelves with no readable titles,
+picture frames with no actual picture in them, text on a screen or sign that dissolves into
+nonsense the moment you really look at it.</li>
+</ul>
+
+<h2>Why It Costs You Trust</h2>
+<p>None of this is really about the technology. It's about what a fake photo tells a visitor about
+the business behind it. If your whole pitch is that you're real, personal, and hands-on, and the
+first thing someone sees is a stock image of a stranger who was never actually in your shop, on
+your job site, or in your kitchen, the message and the image are working against each other. People
+don't need to identify the photo as AI to feel that mismatch. They just trust the page a little
+less, and move on a little faster.</p>
+
+<h2>A Real Example: My Own Site</h2>
+<p>I built this site's blog section with cover images generated the same way a lot of small
+businesses end up doing it: a quick AI image prompt, a nice-looking result, done. They looked
+fine individually. But once I started actually training myself to spot this stuff for client work,
+I couldn't unsee it on my own homepage. So this week I pulled all three and rebuilt the covers from
+scratch, no photo at all. Each one is now a simple card built from the site's own design system:
+the same dark background, the same gold accent line, a small line-icon relevant to the post, and
+the headline. It took less effort than generating a new image would have, it'll never look
+subtly wrong to a sharp-eyed visitor, and it can't drift out of style the way a photo trend can.</p>
+
+<h2>What To Use Instead</h2>
+<p>You don't need a professional photographer to fix this. In order of what actually helps most:</p>
+<ul>
+<li><strong>A real photo, even an imperfect one.</strong> A phone photo of your actual workspace,
+product, or storefront will beat a polished fake every time. Slightly imperfect reads as honest.</li>
+<li><strong>Stock photography chosen for the specific context, not the general vibe.</strong> If
+you're going to use stock, pick an image that actually matches what the page is describing, not
+just one that looks nice in the slot. And don't reuse the same photo across five different pages.</li>
+<li><strong>No photo at all.</strong> A clean design element, a simple icon, or just strong
+typography on your own brand colors is more honest than a fake photo trying to fill a blank space.
+That's the option I ended up using here.</li>
+</ul>
+
+<h2>Bottom Line</h2>
+<p>A website's images are doing a job whether you think about them or not: telling a visitor whether
+this is a real business or a template with a name attached. If you're not sure whether your own
+site's photos are helping that case or quietly working against it, that's exactly the kind of gap
+I look for when I audit a client's site, and it's worth checking before you assume the problem is
+somewhere else entirely.</p>
 """,
     },
 ]

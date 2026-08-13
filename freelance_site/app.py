@@ -68,6 +68,15 @@ PORTFOLIO = [
         "secondary_label": "Source on GitHub",
     },
     {
+        "name": "Screen Notes AI",
+        "tag": "Desktop app",
+        "blurb": "A local desktop app that listens to whatever's playing on your screen, "
+                 "transcribes it in real time with Whisper, and organizes it into topic-grouped "
+                 "notes using a local Qwen model. Nothing leaves the machine.",
+        "link": None,
+        "link_label": None,
+    },
+    {
         "name": "Butcher Bob's",
         "tag": "Website mockup",
         "blurb": "A homepage redesign built for a family butcher shop open since 1988, "

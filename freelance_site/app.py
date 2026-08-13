@@ -309,7 +309,7 @@ these basics are actually in place before assuming the site needs to be rebuilt 
         "icon": "eye",
         "title": "Is Your Website Using AI-Generated Stock Photos? Here's How Customers Can Tell",
         "description": "How to spot AI-generated and generic stock photography on a small business website, why it quietly costs you customer trust, and what to use instead.",
-        "date": "August 13, 2026",
+        "date": "August 12, 2026",
         "read_time": "6 min read",
         "excerpt": "Most visitors can't say why a photo feels off, but they notice. Here's what actually gives away an AI-generated or mismatched stock image, and what I replaced my own site's with.",
         "body": """

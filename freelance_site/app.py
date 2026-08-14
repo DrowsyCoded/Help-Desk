@@ -651,6 +651,132 @@ structure, and a site that loads fast on a phone will put a small business ahead
 local competitors, who are still skipping these exact same basics.</p>
 """,
     },
+    {
+        "slug": "5-signs-your-website-is-costing-you-customers",
+        "icon": "warning",
+        "title": "5 Signs Your Website Is Costing You Customers",
+        "description": "The quiet website problems that drive customers away before they ever call or email you — and how to tell if yours has them.",
+        "date": "August 14, 2026",
+        "read_time": "9 min read",
+        "excerpt": "A website doesn't have to be broken to lose you business. Here are the five most common problems I find on small business sites — and how to check for them yourself in five minutes.",
+        "body": """
+<p>Here's a scenario I run into a lot. A business owner tells me their website is \"fine.\" It's
+up, it looks reasonably put-together, nobody's complained about it. But when I ask how many
+leads or calls it's actually brought in this month, the honest answer is usually \"I'm not sure\"
+or \"not many.\" A website can be online, functional, and still be quietly losing you customers
+every single day, because most people who leave don't tell you why. They just leave. No error
+message, no complaint, no bounce notification. They land on the page, decide within a few
+seconds that this isn't the business they're calling, and close the tab.</p>
+<p>The good news is that the problems behind this are almost always the same handful of things,
+and most of them take five minutes to check for yourself. Here are the five I see most often,
+what they actually cost you, and how to tell if your site has them.</p>
+
+<h2>1. It Loads Too Slowly</h2>
+<p>Speed is one of the least glamorous parts of a website and one of the most expensive to get
+wrong. Google's own research into mobile page speed has found that as load time stretches from
+one second to three seconds, the odds of a visitor bouncing before the page even finishes
+loading rise sharply, and it keeps climbing the longer the wait goes on. People aren't being
+impatient for no reason. On a phone, on the go, a slow site reads as a warning sign: if the
+website is this neglected, is the business behind it any better?</p>
+<p>The usual causes are predictable: oversized images that were never compressed before upload,
+too many third-party scripts and plugins running in the background (chat widgets, tracking
+pixels, font libraries), and cheap or oversold hosting that chokes under real traffic. None of
+these are hard to fix once you know they're there. The problem is that most site owners never
+know, because the site loads fine for them, sitting at their desk on fast home wifi, which is
+nothing like the experience of a customer standing in a parking lot on 4G.</p>
+<p><strong>How to check:</strong> Run your homepage through Google's PageSpeed Insights
+(pagespeed.web.dev) and look at the mobile score specifically, not desktop. If it's flagging
+large images or excessive load time, that's not a cosmetic issue, that's customers leaving
+before they see what you offer.</p>
+
+<h2>2. It Doesn't Actually Work on a Phone</h2>
+<p>\"Mobile-friendly\" gets thrown around as a checkbox, but there's a real difference between a
+site that technically resizes on a phone and one that's actually built to be used on one. I
+still regularly pull up small business sites on my phone and find text too small to read without
+zooming, buttons packed so close together that I tap the wrong one, or a navigation menu that
+opens and then won't close. Most web traffic for local, service-based businesses now comes from
+a phone, not a desktop. If the mobile experience is an afterthought, you're making the majority
+of your visitors work the hardest to become customers.</p>
+<p>This one is sneaky because it's invisible to the owner if they mostly check their own site on
+a laptop. The fix isn't always a full rebuild either. Sometimes it's genuinely small: bigger tap
+targets, a simplified mobile menu, a phone number that's an actual tappable link instead of
+plain text someone has to copy by hand.</p>
+<p><strong>How to check:</strong> Pull up your own site on your phone, on cellular data, not wifi,
+and try to do the thing a customer would actually do: find your hours, get your phone number, or
+fill out a contact form. If any of that is annoying for you, it's more annoying for someone who
+doesn't already know your business.</p>
+
+<h2>3. The Information Is Out of Date</h2>
+<p>This is the one that costs real, specific customers, not just a vague drop in traffic. Old
+hours listed after they changed. A phone number that used to work. A \"current\" promotion from
+two years ago still pinned to the homepage. A staff or services page that doesn't mention what
+you actually offer now. I've seen small business sites where the copyright year in the footer
+was the most recently updated thing on the entire page.</p>
+<p>Stale information doesn't just fail to help, it actively misleads. Someone who shows up during
+listed hours and finds the doors locked, or who calls a disconnected number, doesn't usually try
+again. They assume the business closed and move to the next search result. The website is
+supposed to be the most reliable source of truth about your business. When it's wrong, it's
+worse than having no website at all, because at least an absence of information doesn't send
+someone confidently to the wrong place.</p>
+<p><strong>How to check:</strong> Read your own site like a stranger would, top to bottom, and
+fact-check every claim against what's actually true today: hours, prices, services, contact
+info, any \"current\" offers. If anything's stale, that's an easy fix with a real payoff.</p>
+
+<h2>4. There's No Clear Next Step</h2>
+<p>A surprising number of small business websites look good and still don't tell a visitor what
+to do. They describe the business, list some services, maybe show a gallery, and then just
+stop. There's no obvious button to call, book, request a quote, or get in touch. The contact
+information is buried on a separate page, or worse, exists but isn't a clickable link. A visitor
+who's already interested still has to hunt for how to become a customer, and a lot of people
+simply won't do that hunting. They'll go find a competitor whose site makes the next step
+obvious.</p>
+<p>This is less about design flair and more about not making a visitor think. Every page on your
+site should answer, without effort, \"okay, so what do I do now?\" A visible phone number,
+a direct \"Book Now\" or \"Get a Quote\" button, a short contact form near the top of the page,
+not just tucked at the bottom. Small, unglamorous changes, but they're often the single biggest
+lever on how many visitors actually turn into inquiries.</p>
+<p><strong>How to check:</strong> Land on your homepage as if you'd never seen it before and time
+how long it takes you to find your phone number or a way to contact you. If it takes more than a
+few seconds, or requires clicking to another page, that's friction you're paying for.</p>
+
+<h2>5. It Looks Unfinished or Untrustworthy</h2>
+<p>This is the hardest one to self-diagnose, because you already trust your own business. A
+first-time visitor doesn't have that context yet, and they're reading small signals to decide
+whether you're legitimate. Broken images. Placeholder text that was never replaced (\"Lorem
+ipsum\" or \"Insert business name here\" left in by accident). Generic stock photos that clearly
+aren't your actual shop, team, or product. Dead links that go nowhere. A design that hasn't been
+touched since the site launched years ago, with visual conventions that quietly signal \"this
+business might not be around anymore\" even when it very much is.</p>
+<p>None of these individually sinks a business. Together, they add up to an impression, and
+first-time visitors form that impression in seconds, long before they read a word of your
+copy. It's the same instinct that makes you hesitate before walking into a physical store with
+a flickering sign and a dusty window display. A website is that storefront now, for better or
+worse, for most people's first impression of you.</p>
+<p><strong>How to check:</strong> Ask someone outside your business, a friend, a family member,
+someone who's never seen the site, to pull it up cold and tell you their honest first impression
+after thirty seconds. You'll learn more from that thirty seconds than from staring at it
+yourself, because you can't see it with fresh eyes anymore.</p>
+
+<h2>What This Adds Up To</h2>
+<p>None of these five problems require a full rebuild to fix, and I want to be upfront about
+that rather than using this as a scare tactic to sell a bigger project than you need. Sometimes
+it's compressing a few images and adding a visible phone number. Sometimes the content is fine
+and the whole thing just needs a faster host. The real value in going through this list isn't
+finding out your site is terrible, most aren't. It's finding the one or two specific things that
+are quietly costing you customers who never told you they left.</p>
+<p>If you go through this checklist and find a few of these on your own site, that's normal, and
+it's fixable. If you'd rather have a second set of eyes look it over and tell you honestly what's
+worth fixing and what isn't, that's exactly the kind of audit I do before recommending any work
+at all.</p>
+
+<h2>Bottom Line</h2>
+<p>A website doesn't have to be broken to underperform. Most of the time it's a handful of small,
+fixable issues stacking up quietly in the background: a slow load here, a stale phone number
+there, a missing call-to-action nobody thought to add. Individually minor. Together, they're the
+difference between a site that works for your business and one that's just sitting there, online,
+waiting for customers who already left.</p>
+""",
+    },
 ]
 
 PROCESS_STEPS = [

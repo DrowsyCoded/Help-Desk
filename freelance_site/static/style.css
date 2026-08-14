@@ -720,6 +720,8 @@ section { padding: 110px 24px; }
 .article-body li { margin-bottom: 0.5em; }
 
 .article-body strong { color: var(--text); }
+.article-body a { color: var(--gold); text-decoration: underline; text-underline-offset: 2px; }
+.article-body a:hover { color: var(--gold-bright); }
 
 /* ---------- blog coming soon topics ---------- */
 .topic-tags {

@@ -534,7 +534,7 @@ string of random numbers his old website builder had generated automatically. Go
 idea what any individual page was actually about, so it had nothing to rank. That's not a rebuild
 problem. That's an SEO fundamentals problem, and it's one of the most common things I run into on
 small business sites that otherwise look completely fine.</p>
-<p>I've written before about why a lot of small businesses aren't showing up on Google, and most
+<p>I've written before about <a href="/blog/why-your-small-business-isnt-showing-up-on-google">why a lot of small businesses aren't showing up on Google</a>, and most
 of that comes down to the Google Business Profile, reviews, and the basics Google uses to rank
 local results. This post is the other half of that. Once someone actually lands on your website,
 a separate set of fundamentals takes over: the actual on-page SEO of the site itself. This is the

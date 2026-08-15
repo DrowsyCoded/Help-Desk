@@ -652,90 +652,6 @@ local competitors, who are still skipping these exact same basics.</p>
 """,
     },
     {
-        "slug": "how-to-write-a-cover-letter-that-actually-gets-read",
-        "icon": "mail",
-        "title": "How to Write a Cover Letter That Actually Gets Read in 2026",
-        "description": "What actually makes a hiring manager read a cover letter instead of skipping it — the opening line, structure, and mistakes that get cover letters ignored.",
-        "date": "August 15, 2026",
-        "read_time": "6 min read",
-        "excerpt": "Most cover letters get read for about six seconds before a hiring manager decides whether to keep going. Here's what actually earns the rest of their attention — and what gets a cover letter skipped entirely.",
-        "body": """
-<p>I write cover letters alongside resumes, and the question I get most isn't \"how do I write
-one,\" it's \"does anyone even read these?\" Fair question. The honest answer is: sometimes, for
-about six seconds, and then either they keep reading or they don't. What happens in those six
-seconds is almost entirely in your control, and it has very little to do with the things most
-cover letter advice obsesses over.</p>
-
-<h2>Do You Actually Need One?</h2>
-<p>If the application doesn't ask for a cover letter and doesn't give you anywhere to attach one,
-don't manufacture a place to put it. But when there's an upload field for it, even one marked
-\"optional,\" skipping it is a real cost. Optional fields are exactly where hiring managers look
-for a signal of who actually wants the job versus who's mass-applying. A cover letter is one of
-the few pieces of an application that can't be faked in bulk, which is precisely why it still
-matters even in a process that's otherwise entirely automated.</p>
-
-<h2>Why Most Cover Letters Get Skipped</h2>
-<p>The letters that get skipped almost all make the same mistake in the first two sentences: they
-restate the resume. \"I am writing to apply for the Marketing Coordinator position at Acme Co.
-I have three years of experience in marketing and a degree in communications.\" A hiring manager
-already has that information sitting right next to the letter. Repeating it in paragraph form
-isn't a summary, it's dead weight, and it trains the reader to expect nothing new for the rest of
-the page. Once that expectation sets in, most people stop reading closely, if they keep reading
-at all.</p>
-
-<h2>The Opening Line That Doesn't Get Ignored</h2>
-<p>The first sentence has one job: give the reader a reason that isn't already sitting in your
-resume. That usually means one of three things: a specific detail about the company that shows
-you actually looked at it, a direct line to a real result you got somewhere else, or a genuine
-reason this particular role is the one you want, not just a role. Compare \"I am excited to apply
-for this position\" against \"Your job posting mentions rebuilding the onboarding flow, that's the
-exact project I led at my last company, and it cut new-user drop-off by around a third.\" The
-second one takes ten extra seconds to write and does more work than the entire rest of a generic
-letter.</p>
-
-<h2>The Structure That Actually Works</h2>
-<p>Cover letters don't need to be clever, they need to be structured so a busy person can get the
-point fast. A format that consistently works:</p>
-<ul>
-<li><strong>Opening line.</strong> The specific hook described above, not a restated job title.</li>
-<li><strong>One paragraph, one story.</strong> Pick a single relevant result or project and tell it
-like a short story with a real outcome, not a list of responsibilities. One good example beats
-four vague ones.</li>
-<li><strong>A direct line to their problem.</strong> Connect that story to something the job
-posting actually mentions needing. This is the part most letters skip entirely, and it's the part
-that makes a reader think \"this person read the posting,\" which is rarer than it should be.</li>
-<li><strong>A short, confident close.</strong> Say plainly that you'd like to talk, not \"I look
-forward to hearing from you,\" which says nothing. Thank them, and stop. Letters that trail off
-apologizing for taking up someone's time undercut everything written above it.</li>
-</ul>
-<p>Three to four short paragraphs, done. If it's pushing past one page, it's saying too much.</p>
-
-<h2>Mistakes That Quietly Kill a Cover Letter</h2>
-<ul>
-<li><strong>The wrong company name.</strong> Still happens constantly from letters written off a
-template and never fully checked. It's an instant, unrecoverable red flag.</li>
-<li><strong>Restating the resume word for word.</strong> Covered above, but worth repeating: this
-is the single most common reason a letter stops getting read.</li>
-<li><strong>Generic enthusiasm with nothing behind it.</strong> \"I've always been passionate about
-this industry\" means nothing without a specific reason attached to it.</li>
-<li><strong>Apologizing for gaps or a career change.</strong> If you're changing direction, say what
-you're bringing with you, not why you're sorry for not following a straight line. Hiring managers
-care far less about a nonlinear path than most applicants assume.</li>
-<li><strong>Formatting fights with the resume.</strong> If you've cleaned up a resume to actually
-get read by an <a href=\"/blog/how-to-beat-an-ats-resume-2026\">applicant tracking system</a>,
-make sure the cover letter matches that same simple, readable structure. A polished resume paired
-with a cluttered cover letter undercuts the work that went into the first one.</li>
-</ul>
-
-<h2>Bottom Line</h2>
-<p>Nobody reads a cover letter front to back the way they'd read an email from a friend. They
-skim the first two lines, decide whether the rest is worth their time, and either keep going or
-move to the next application. Winning those two lines with something specific instead of generic
-is what separates a cover letter that gets read from one that gets skipped, and it's a fixable
-problem in about the time it takes to write four honest sentences.</p>
-""",
-    },
-    {
         "slug": "5-signs-your-website-is-costing-you-customers",
         "icon": "warning",
         "title": "5 Signs Your Website Is Costing You Customers",
@@ -859,6 +775,90 @@ fixable issues stacking up quietly in the background: a slow load here, a stale 
 there, a missing call-to-action nobody thought to add. Individually minor. Together, they're the
 difference between a site that works for your business and one that's just sitting there, online,
 waiting for customers who already left.</p>
+""",
+    },
+    {
+        "slug": "how-to-write-a-cover-letter-that-actually-gets-read",
+        "icon": "mail",
+        "title": "How to Write a Cover Letter That Actually Gets Read in 2026",
+        "description": "What actually makes a hiring manager read a cover letter instead of skipping it — the opening line, structure, and mistakes that get cover letters ignored.",
+        "date": "August 15, 2026",
+        "read_time": "6 min read",
+        "excerpt": "Most cover letters get read for about six seconds before a hiring manager decides whether to keep going. Here's what actually earns the rest of their attention — and what gets a cover letter skipped entirely.",
+        "body": """
+<p>I write cover letters alongside resumes, and the question I get most isn't \"how do I write
+one,\" it's \"does anyone even read these?\" Fair question. The honest answer is: sometimes, for
+about six seconds, and then either they keep reading or they don't. What happens in those six
+seconds is almost entirely in your control, and it has very little to do with the things most
+cover letter advice obsesses over.</p>
+
+<h2>Do You Actually Need One?</h2>
+<p>If the application doesn't ask for a cover letter and doesn't give you anywhere to attach one,
+don't manufacture a place to put it. But when there's an upload field for it, even one marked
+\"optional,\" skipping it is a real cost. Optional fields are exactly where hiring managers look
+for a signal of who actually wants the job versus who's mass-applying. A cover letter is one of
+the few pieces of an application that can't be faked in bulk, which is precisely why it still
+matters even in a process that's otherwise entirely automated.</p>
+
+<h2>Why Most Cover Letters Get Skipped</h2>
+<p>The letters that get skipped almost all make the same mistake in the first two sentences: they
+restate the resume. \"I am writing to apply for the Marketing Coordinator position at Acme Co.
+I have three years of experience in marketing and a degree in communications.\" A hiring manager
+already has that information sitting right next to the letter. Repeating it in paragraph form
+isn't a summary, it's dead weight, and it trains the reader to expect nothing new for the rest of
+the page. Once that expectation sets in, most people stop reading closely, if they keep reading
+at all.</p>
+
+<h2>The Opening Line That Doesn't Get Ignored</h2>
+<p>The first sentence has one job: give the reader a reason that isn't already sitting in your
+resume. That usually means one of three things: a specific detail about the company that shows
+you actually looked at it, a direct line to a real result you got somewhere else, or a genuine
+reason this particular role is the one you want, not just a role. Compare \"I am excited to apply
+for this position\" against \"Your job posting mentions rebuilding the onboarding flow, that's the
+exact project I led at my last company, and it cut new-user drop-off by around a third.\" The
+second one takes ten extra seconds to write and does more work than the entire rest of a generic
+letter.</p>
+
+<h2>The Structure That Actually Works</h2>
+<p>Cover letters don't need to be clever, they need to be structured so a busy person can get the
+point fast. A format that consistently works:</p>
+<ul>
+<li><strong>Opening line.</strong> The specific hook described above, not a restated job title.</li>
+<li><strong>One paragraph, one story.</strong> Pick a single relevant result or project and tell it
+like a short story with a real outcome, not a list of responsibilities. One good example beats
+four vague ones.</li>
+<li><strong>A direct line to their problem.</strong> Connect that story to something the job
+posting actually mentions needing. This is the part most letters skip entirely, and it's the part
+that makes a reader think \"this person read the posting,\" which is rarer than it should be.</li>
+<li><strong>A short, confident close.</strong> Say plainly that you'd like to talk, not \"I look
+forward to hearing from you,\" which says nothing. Thank them, and stop. Letters that trail off
+apologizing for taking up someone's time undercut everything written above it.</li>
+</ul>
+<p>Three to four short paragraphs, done. If it's pushing past one page, it's saying too much.</p>
+
+<h2>Mistakes That Quietly Kill a Cover Letter</h2>
+<ul>
+<li><strong>The wrong company name.</strong> Still happens constantly from letters written off a
+template and never fully checked. It's an instant, unrecoverable red flag.</li>
+<li><strong>Restating the resume word for word.</strong> Covered above, but worth repeating: this
+is the single most common reason a letter stops getting read.</li>
+<li><strong>Generic enthusiasm with nothing behind it.</strong> \"I've always been passionate about
+this industry\" means nothing without a specific reason attached to it.</li>
+<li><strong>Apologizing for gaps or a career change.</strong> If you're changing direction, say what
+you're bringing with you, not why you're sorry for not following a straight line. Hiring managers
+care far less about a nonlinear path than most applicants assume.</li>
+<li><strong>Formatting fights with the resume.</strong> If you've cleaned up a resume to actually
+get read by an <a href=\"/blog/how-to-beat-an-ats-resume-2026\">applicant tracking system</a>,
+make sure the cover letter matches that same simple, readable structure. A polished resume paired
+with a cluttered cover letter undercuts the work that went into the first one.</li>
+</ul>
+
+<h2>Bottom Line</h2>
+<p>Nobody reads a cover letter front to back the way they'd read an email from a friend. They
+skim the first two lines, decide whether the rest is worth their time, and either keep going or
+move to the next application. Winning those two lines with something specific instead of generic
+is what separates a cover letter that gets read from one that gets skipped, and it's a fixable
+problem in about the time it takes to write four honest sentences.</p>
 """,
     },
 ]

@@ -861,6 +861,84 @@ is what separates a cover letter that gets read from one that gets skipped, and 
 problem in about the time it takes to write four honest sentences.</p>
 """,
     },
+    {
+        "slug": "how-to-write-a-linkedin-profile-that-actually-gets-you-noticed",
+        "icon": "profile",
+        "title": "How to Write a LinkedIn Profile That Actually Gets You Noticed in 2026",
+        "description": "Why a LinkedIn profile isn't a resume copy-paste, the headline and About-section fixes that actually get you found in recruiter searches, and the mistakes that quietly bury a profile.",
+        "date": "August 16, 2026",
+        "read_time": "7 min read",
+        "excerpt": "Recruiters don't read a LinkedIn profile the way they read a resume, they search it. Here's what actually gets a profile found, and the small fixes most people never make.",
+        "body": """
+<p>I rewrite LinkedIn profiles alongside resumes, and the two get treated the same way by most
+people: write the resume, then paste the same bullet points into LinkedIn and call it done. That's
+the single biggest miss. A resume gets read by one person after they've already decided to look at
+it. A LinkedIn profile mostly gets found, through a recruiter search, a shared connection, someone
+Googling your name before a call, and \"found\" only happens if the profile is built for search in
+the first place.</p>
+
+<h2>Recruiters Search LinkedIn, They Don't Read It</h2>
+<p>Recruiter seats on LinkedIn come with a search tool that works a lot like a keyword filter: job
+title, skills, location, years of experience. A recruiter searching \"project manager\" plus
+\"healthcare\" plus \"Salesforce\" gets a results list, and your profile either has those literal
+terms somewhere searchable or it doesn't show up at all, no matter how good your actual experience
+is. This is the same logic as an applicant tracking system parsing a resume, just running on a
+different platform. If your profile only says \"led cross-functional initiatives\" and never says
+the actual job title or tools recruiters are typing into that search bar, you're invisible to a
+search you'd otherwise be a strong match for.</p>
+
+<h2>The Headline Isn't Your Job Title</h2>
+<p>LinkedIn auto-fills your headline with your current job title, and most people just leave it
+there. That's a wasted 220 characters. The headline shows up next to your name everywhere, search
+results, comments, connection requests, so it's doing more work than almost any other field on the
+profile. A stronger headline states what you do, who you do it for, and a real result or
+specialty, not just a title. \"Marketing Coordinator at Acme Co.\" tells a reader nothing they
+couldn't get from your current position. \"Marketing Coordinator | Email campaigns that grew a
+subscriber list from 2K to 14K | B2B SaaS\" tells them what you're actually good at within about
+two seconds.</p>
+
+<h2>The About Section Nobody Reads Top to Bottom</h2>
+<p>LinkedIn truncates the About section after roughly two to three lines before showing a \"see
+more\" link, and most visitors never click it. That means whatever you put first is functionally
+the whole section for a large share of readers. The version most people write starts with
+something like \"Results-driven professional with 5+ years of experience...\", generic enough to
+apply to almost anyone, and gives a reader zero reason to click further. Lead instead with the
+same kind of specific hook that works in a cover letter: what you actually do, one real result, or
+what kind of work you're looking for next. Save the fuller career story for the paragraphs after,
+for the smaller number of people who do click through.</p>
+
+<h2>Skills Section: What Actually Gets You Found</h2>
+<p>The Skills section feeds directly into that recruiter search tool described above, so this is
+not the place to list soft skills like \"team player\" or \"hard worker.\" Prioritize the specific
+tools, platforms, certifications, and job-title language that someone would actually type into a
+search bar looking for someone like you, the same literal-keyword-matching logic covered in
+<a href=\"/blog/how-to-beat-an-ats-resume-2026\">how ATS software reads a resume</a>. Reorder the
+list so your top three to five most relevant skills are pinned at the top; LinkedIn lets you
+feature specific skills, and those are what show up most prominently.</p>
+
+<h2>Mistakes That Quietly Bury a Profile</h2>
+<ul>
+<li><strong>No photo, or a bad one.</strong> Profiles with a photo get dramatically more views than
+ones without, and a blurry selfie or old group photo undercuts the rest of the profile before
+anyone reads a word.</li>
+<li><strong>A headline that's just a job title.</strong> Covered above, but it's the single most
+common miss on this platform.</li>
+<li><strong>An About section left blank or barely filled in.</strong> An empty About section reads
+as an unfinished profile, which reads as not serious about being found.</li>
+<li><strong>Experience entries with no description.</strong> A job title and dates with nothing
+underneath gives a reader, and the search algorithm, nothing to match against.</li>
+<li><strong>Never updated after landing the last job.</strong> A profile that hasn't moved since
+2022 signals someone who isn't actively engaged with their own career, even if that's not true.</li>
+</ul>
+
+<h2>Bottom Line</h2>
+<p>A resume gets read once someone's already decided to look at it. A LinkedIn profile has to earn
+that decision first, through search, through a quick scan, through whatever shows before someone
+clicks \"see more.\" Building it around how it actually gets found, real keywords, a headline that
+says something, an About section that leads with the good part, matters more than how polished the
+full career story reads underneath it.</p>
+""",
+    },
 ]
 
 PROCESS_STEPS = [

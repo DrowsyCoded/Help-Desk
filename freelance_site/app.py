@@ -939,6 +939,93 @@ says something, an About section that leads with the good part, matters more tha
 full career story reads underneath it.</p>
 """,
     },
+    {
+        "slug": "behind-the-scenes-on-a-real-client-project-part-1",
+        "icon": "progress",
+        "title": "Behind the Scenes on a Real Client Project: Part 1",
+        "description": "An honest look at a live copywriting and web content project, what's working, what hasn't gone smoothly, and what I'm waiting on right now. Part 1 of 2.",
+        "date": "August 17, 2026",
+        "read_time": "6 min read",
+        "excerpt": "Most of what people see from a freelancer is the finished result. Here's what an actual project looks like while it's still in progress, the strengths, the friction, and what I'm waiting on right now.",
+        "body": """
+<p>Most of what a potential client sees from me is a finished portfolio piece, a clean before-and-
+after, a case study with a bow on it. That's useful, but it skips the part where the actual work
+happens. I'm in the middle of a real project right now, a homepage and product copy rewrite for a
+small lifestyle brand, and I wanted to write about it while it's still unfinished instead of
+waiting until it's polished. I'm keeping the client and the business itself anonymous here, this
+isn't about them, it's about what the process actually looks like from the inside. This is part
+one. I'll write a follow-up once the project wraps.</p>
+
+<h2>What the Project Actually Is</h2>
+<p>The scope: rewrite the homepage copy, rewrite four product descriptions, pull together a real
+founder story for the About section, and audit the site's existing images for anything that reads
+as generic or AI-generated, with real replacement recommendations. No redesign, no new layout,
+just the words and the photography, built to sound like an actual person instead of templated
+marketing copy. It's broken into two milestones: a first draft for review, then a final round
+after feedback.</p>
+
+<h2>Why I Almost Sent the Wrong First Draft</h2>
+<p>Early on, I wrote a full placeholder version of the homepage copy, hero section, mission
+statement, FAQ, written the way I imagined the founder might sound. It was fine. It was also
+generic in exactly the way I write about avoiding on this blog, competent copy that could have
+belonged to a dozen similar brands. I made the call not to send it. Instead I sent over a short
+list of real questions: the actual founder story, what he was proudest of in the products, what he
+wanted the site to feel like. That one decision, holding the placeholder instead of shipping it,
+is probably the single biggest reason the final draft ended up sounding like an actual person
+rather than a guess at one.</p>
+<p>When the real story came back, it was more specific and more honest than anything I could have
+invented, real family history, a real turning point, real reasons behind why the business exists
+at all. That's the material that actually makes copy land. Guessing at a founder's voice instead
+of asking for it is a shortcut that shows.</p>
+
+<h2>The Image Audit Turned Up More Than Expected</h2>
+<p>I went through the site's existing photography image by image, and it turned out to have more
+problems than a quick glance would suggest: a stock photo in the mission section with zero actual
+connection to what the brand does (the client's own top complaint once I flagged it), a couple of
+product photos with the telltale signs of AI generation, an oddly warped hand, lighting that was
+too evenly \"perfect\" to be a real photograph, and the same lifestyle photos reused across
+multiple product listings, a small thing that quietly signals a templated site to anyone paying
+attention. I sourced real, properly licensed replacement photos for each flagged spot rather than
+just listing the problems and leaving it there.</p>
+
+<h2>What's Gone Well</h2>
+<ul>
+<li><strong>The real founder material elevated everything.</strong> Once I had the actual story
+instead of a guess, the homepage and About section stopped needing much revision at all.</li>
+<li><strong>The client caught things I might have missed.</strong> He immediately agreed the
+mission-section photo was wrong the moment I flagged it, he'd apparently felt that way for a while
+without knowing how to fix it.</li>
+<li><strong>Milestone one landed clean.</strong> The first full deliverable, a complete draft PDF
+with the homepage copy, product descriptions, founder story, and image audit, was approved and
+paid without requested revisions.</li>
+</ul>
+
+<h2>What Hasn't Gone Smoothly</h2>
+<ul>
+<li><strong>Silence after approval isn't the same as feedback.</strong> The client approved the
+milestone and activated the next one, but didn't leave written notes on what he actually thought
+of the draft. Approval tells me he didn't hate it. It doesn't tell me what to adjust before the
+final round, so I had to follow up directly and ask.</li>
+<li><strong>Placeholder copy is a real time cost, even when you catch it.</strong> Writing the
+first full homepage draft before deciding not to use it wasn't wasted exactly, it clarified what
+I actually needed to ask, but it's a step I'd try to skip earlier next time by asking the founder
+questions before writing anything client-facing.</li>
+</ul>
+
+<h2>What I'm Waiting On Right Now</h2>
+<p>Specific feedback on the first draft before I move into the final polish pass. The project isn't
+stalled, the milestone structure means work can continue either way, but I'd rather adjust based
+on what he actually thinks than guess at revisions he didn't ask for. That's the honest state of
+things as of this post.</p>
+
+<h2>Why I'm Writing This At All</h2>
+<p>Anyone can post a finished result. Fewer people show the part where a decision could have gone
+wrong, the placeholder draft I didn't send, or the part where a client goes quiet and you just
+have to follow up like a normal person. That's what the work actually looks like most of the time,
+and I'd rather be honest about that than only show the polished after photo. Part two goes up once
+this one's finished, revisions and all.</p>
+""",
+    },
 ]
 
 PROCESS_STEPS = [

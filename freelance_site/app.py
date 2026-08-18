@@ -35,6 +35,14 @@ SERVICES = [
         "features": ["Written for the specific job posting", "Matches the voice of your resume", "Not a recycled template"],
         "link": "https://www.fiverr.com/jonathonjhunt",
     },
+    {
+        "name": "Product Descriptions",
+        "blurb": "SEO-optimized listings for Shopify, Etsy, or Amazon that sound like a real person wrote them.",
+        "price": "From $30 (5-pack)",
+        "turnaround": "Fast turnaround",
+        "features": ["SEO-optimized for Shopify, Etsy, or Amazon", "Written to sound human, not templated", "Bundle pricing for multiple listings"],
+        "link": "https://www.fiverr.com/jonathonjhunt",
+    },
 ]
 
 SERVICE_FAQ = [

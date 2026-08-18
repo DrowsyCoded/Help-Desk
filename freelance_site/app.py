@@ -1,6 +1,13 @@
 from flask import Flask, render_template
+import os
 
 app = Flask(__name__)
+
+CSS_VERSION = str(int(os.path.getmtime(os.path.join(app.static_folder, "style.css"))))
+
+@app.context_processor
+def inject_css_version():
+    return {"css_version": CSS_VERSION}
 
 SERVICES = [
     {

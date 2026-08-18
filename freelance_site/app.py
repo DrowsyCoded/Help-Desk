@@ -1041,6 +1041,80 @@ and I'd rather be honest about that than only show the polished after photo. Par
 this one's finished, revisions and all.</p>
 """,
     },
+    {
+        "slug": "bare-minimum-online-presence-small-business-2026",
+        "icon": "checklist",
+        "title": "The Bare Minimum Online Presence Every Small Business Needs in 2026",
+        "description": "Not everything, just the handful of things that actually matter for a small business to be findable, trustworthy, and reachable online right now.",
+        "date": "August 17, 2026",
+        "read_time": "7 min read",
+        "excerpt": "You don't need to be everywhere online. You need a short list of things done right. Here's what actually matters and what you can skip.",
+        "body": """
+<p>Every small business owner I talk to eventually asks some version of the same question:
+\"what do I actually need to have online?\" It's a fair question, because the honest answer
+isn't \"everything.\" You don't need a TikTok account, a newsletter, a blog, and an app just
+because a marketing blog told you to. Most small businesses do fine with a short list of things,
+done properly, and skip the rest entirely.</p>
+<p>Here's what I tell people when they ask, in the order I'd actually build it.</p>
+
+<h2>1. A Website You Actually Own</h2>
+<p>A Facebook Page or an Instagram profile is not a website, even though it can feel like one.
+You don't own that page. The platform can change its rules, bury your posts, restrict your
+reach, or in rare cases suspend the account, and there's nothing you can do about it because
+you never controlled it in the first place. A website on your own domain is the one piece of
+online presence that's actually yours: your name, your content, your rules.</p>
+<p>It doesn't need to be big. For most small businesses, five pages does the job: home, about,
+services, a way to contact you, and something like a gallery or portfolio if it's relevant. See
+<a href="/blog/how-much-does-a-small-business-website-cost">how much a site like that actually
+costs</a> if you're trying to budget for it.</p>
+
+<h2>2. A Claimed, Filled-Out Google Business Profile</h2>
+<p>This is the single highest-leverage thing on this list and it's free. When someone searches
+\"[your type of business] near me,\" the results Google shows first come from Business Profiles,
+not websites. If yours isn't claimed, or is claimed but has old hours, no photos, and zero
+reviews, you're handing that search to a competitor who bothered to fill theirs out.</p>
+<p>Claim it, fill in real hours, add real photos of your actual location or work, and pick the
+most accurate category available. It takes about twenty minutes and it's the fastest way to show
+up for people actively looking for what you do right now.</p>
+
+<h2>3. One Reliable Way for People to Reach You</h2>
+<p>Not five ways. One that you actually check. I've seen sites list a phone number that's
+disconnected, a contact form that silently fails, and an email address nobody's read in months,
+all on the same page. Pick the channel you'll genuinely respond to, phone, email, or a form that
+you know works, and make sure it's the same one listed everywhere: your website, your Google
+Business Profile, your social accounts. Consistency here matters more than options.</p>
+
+<h2>4. A Simple Way to Collect Reviews</h2>
+<p>Reviews do two jobs at once: they build trust with people who've never worked with you, and
+they feed the same Google ranking that your Business Profile depends on. You don't need a
+review-management platform to start. A short, direct ask after a good job, in person or in a
+follow-up text or email, with a direct link to your Google review page, is enough. Most happy
+customers will leave one if you ask; almost none will if you don't.</p>
+
+<h2>5. One Social Platform, Not All of Them</h2>
+<p>Pick the one platform where your actual customers spend time, and post there consistently.
+That's it. A Facebook Page that gets a real post every week beats an Instagram, a Facebook, a
+LinkedIn, and a TikTok that all get updated once a month between them. Trying to run four
+platforms usually means none of them are good, and an abandoned-looking profile can hurt trust
+more than not having one at all.</p>
+
+<h2>What You Can Skip For Now</h2>
+<p>A blog isn't required to have a functioning online presence, though it helps with search over
+time (see <a href="/blog/seo-basics-for-small-business-websites">SEO basics for small business
+websites</a> for why). An email newsletter is worth building once you have an audience, not
+before. A custom app is almost never worth it for a small business, that's a solved problem your
+website and Google Business Profile already cover. None of these are wrong to add eventually.
+They're just not the bare minimum, and building them before the basics above are solid is
+usually wasted effort.</p>
+
+<h2>Bottom Line</h2>
+<p>You don't need to be everywhere online to run a small business well. You need a website you
+own, a Google Business Profile that's actually filled out, one reliable way to be reached, a
+simple habit of asking for reviews, and one social platform you keep current. Get those five
+things solid before you worry about anything else. Everything past that list is optional, and
+most of it can wait.</p>
+""",
+    },
 ]
 
 PROCESS_STEPS = [

@@ -1037,8 +1037,9 @@ things as of this post.</p>
 <p>Anyone can post a finished result. Fewer people show the part where a decision could have gone
 wrong, the placeholder draft I didn't send, or the part where a client goes quiet and you just
 have to follow up like a normal person. That's what the work actually looks like most of the time,
-and I'd rather be honest about that than only show the polished after photo. Part two goes up once
-this one's finished, revisions and all.</p>
+and I'd rather be honest about that than only show the polished after photo.
+<a href="/blog/behind-the-scenes-on-a-real-client-project-part-2">Part 2</a> goes up once this
+one's finished, revisions and all.</p>
 """,
     },
     {
@@ -1113,6 +1114,60 @@ own, a Google Business Profile that's actually filled out, one reliable way to b
 simple habit of asking for reviews, and one social platform you keep current. Get those five
 things solid before you worry about anything else. Everything past that list is optional, and
 most of it can wait.</p>
+""",
+    },
+    {
+        "slug": "behind-the-scenes-on-a-real-client-project-part-2",
+        "icon": "progress",
+        "title": "Behind the Scenes on a Real Client Project: Part 2",
+        "description": "The honest follow-up to Part 1: how the final revision round actually went, what the client's feedback looked like, and how the project wrapped up.",
+        "date": "August 18, 2026",
+        "read_time": "6 min read",
+        "excerpt": "A while back I wrote about a project I was in the middle of and promised a follow-up once it wrapped. It just did. Here's the honest version of how the rest of it went.",
+        "body": """
+<p>A while back I wrote <a href="/blog/behind-the-scenes-on-a-real-client-project-part-1">Part 1</a>
+about a project I was in the middle of: a homepage and product copy rewrite for a small lifestyle
+brand. I said I'd follow up once it wrapped. It just did, so here's the honest version of how the
+rest of it went.</p>
+
+<h2>Where Part 1 Left Off</h2>
+<p>The first milestone had been approved, but I was still waiting on real feedback for the final
+round. Approval isn't the same as notes, so I followed up directly and asked what he actually
+thought.</p>
+
+<h2>The Feedback Came In Marked Up</h2>
+<p>When it came, it came as real, detailed markup on the draft, not a vague "looks good." Line-
+level notes: a headline he preferred a tighter version of, a sentence he wanted added to soften an
+answer, a factual detail in the founder story that needed to match wording used elsewhere on the
+site, and a timeline detail I'd guessed at slightly wrong. That last one stuck with me. I'd placed
+something in the story based on a reasonable assumption, and he corrected the actual order of
+events. It was a good reminder that even when you think you understand someone's story well
+enough to write it, checking the specifics is not optional.</p>
+
+<h2>Getting Small Things Right Actually Matters</h2>
+<p>None of these notes were dramatic. A word swapped here, a sentence added there, a detail
+corrected instead of guessed at. But that's most of what real revision work actually looks like:
+not big rewrites, just small, specific corrections that make the difference between copy that
+sounds right and copy that sounds exactly right to the person it's about.</p>
+
+<h2>What Wrapped Up Clean</h2>
+<p>The product descriptions and calls-to-action had zero notes across every single round, from
+first draft to final. That's the version of "getting it right the first time" that actually
+happens sometimes. Not everything needs revising, and it's worth noticing when something
+doesn't.</p>
+
+<h2>Closing This One Out</h2>
+<p>Final copy went out today. Not a big dramatic finish, just a clean, honest wrap-up: here's what
+changed, here's why, here's the file, ready to use. That's most of what finishing a project
+actually looks like too.</p>
+
+<h2>The Honest Takeaway</h2>
+<p>If you're picturing freelance work as either total chaos or a flawless straight line, it's
+usually neither. It's normal back-and-forth, a few real corrections along the way, and then it's
+done. That's the whole arc from Part 1 to here: a placeholder draft that almost went out, real
+questions asked instead of guesses made, an image audit that turned up more than expected, a
+quiet stretch waiting on feedback, a markup pass with a few things to fix, and then a clean
+finish. Nothing dramatic. Just the actual work.</p>
 """,
     },
 ]

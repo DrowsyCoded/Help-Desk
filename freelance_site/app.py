@@ -1,5 +1,6 @@
 from flask import Flask, render_template
 import os
+from datetime import datetime
 
 app = Flask(__name__)
 
@@ -1172,6 +1173,13 @@ finish. Nothing dramatic. Just the actual work.</p>
     },
 ]
 
+
+def _blog_date_key(post):
+    return datetime.strptime(post["date"], "%B %d, %Y")
+
+
+BLOG_POSTS_SORTED = sorted(BLOG_POSTS, key=_blog_date_key, reverse=True)
+
 PROCESS_STEPS = [
     {"num": "01", "name": "Discovery", "blurb": "We talk through what your business actually needs before anything gets built."},
     {"num": "02", "name": "Draft", "blurb": "I design, write, or build a first version for you to react to."},
@@ -1202,14 +1210,14 @@ def portfolio():
 
 @app.route("/blog")
 def blog():
-    return render_template("blog.html", posts=BLOG_POSTS, active="blog")
+    return render_template("blog.html", posts=BLOG_POSTS_SORTED, active="blog")
 
 
 @app.route("/blog/<slug>")
 def blog_post(slug):
     post = next((p for p in BLOG_POSTS if p["slug"] == slug), None)
     if post is None:
-        return render_template("blog.html", posts=BLOG_POSTS, active="blog"), 404
+        return render_template("blog.html", posts=BLOG_POSTS_SORTED, active="blog"), 404
     return render_template("blog_post.html", post=post, active="blog")
 
 

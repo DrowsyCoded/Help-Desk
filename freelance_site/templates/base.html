@@ -27,7 +27,9 @@ src="https://www.facebook.com/tr?id=1747361072963382&ev=PageView&noscript=1"
 <meta property="og:description" content="{% block og_description %}{{ self.description() }}{% endblock %}">
 <meta property="og:image" content="{{ url_for('static', filename='images/' + (post.image if post is defined and post and post.image else 'cover.jpg'), _external=True) }}">
 <meta property="og:url" content="{{ request.url }}">
+<link rel="canonical" href="{{ request.url }}">
 <meta name="twitter:card" content="summary_large_image">
+{% block extra_head %}{% endblock %}
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Sora:wght@500;600;700;800&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">

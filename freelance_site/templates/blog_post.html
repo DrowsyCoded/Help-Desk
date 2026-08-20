@@ -1,6 +1,30 @@
 {% extends "base.html" %}
 {% block title %}{{ post.title }} — Jonathon Hunt{% endblock %}
 {% block description %}{{ post.description }}{% endblock %}
+{% block extra_head %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": {{ post.title | tojson }},
+  "description": {{ post.description | tojson }},
+  "datePublished": "{{ post.date | iso_date }}",
+  "dateModified": "{{ post.date | iso_date }}",
+  "author": {
+    "@type": "Person",
+    "name": "Jonathon Hunt"
+  },
+  "publisher": {
+    "@type": "Person",
+    "name": "Jonathon Hunt"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "{{ request.url }}"
+  }
+}
+</script>
+{% endblock %}
 {% block content %}
 
 <section class="page-hero">

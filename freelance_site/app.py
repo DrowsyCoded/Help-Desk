@@ -1186,6 +1186,11 @@ the website says \"Contact us for a quote,\" the pricing page doesn't exist, and
 who wants to know what something costs has to fill out a form and wait. It feels like caution.
 What it actually does is quietly cost you customers who never tell you why they left.</p>
 
+<p>This is a close cousin of a problem I've written about before: the
+<a href="/blog/5-signs-your-website-is-costing-you-customers">quiet website issues that drive
+customers away before they ever call or email you</a>. Hidden pricing is one of the most common
+versions of that same problem, and one of the easiest to fix.</p>
+
 <h2>What Actually Happens When Pricing Is Hidden</h2>
 <p>Put yourself in the visitor's position for a second. They found your site because they're
 already looking to solve a problem, and they're comparing you against at least two or three
@@ -1237,7 +1242,8 @@ first-time visitor comparing three businesses in open tabs. If the honest answer
 this cost me\" is \"I'd have to ask,\" that's the exact friction point costing you the visitors
 who never followed up. If you're worried a real number would scare off high-value clients, ask
 yourself honestly whether that's ever actually happened, or whether it's a worry that's never
-been tested.</p>
+been tested. If you want a second opinion on where your own pricing page is helping or hurting
+you, that's exactly the kind of thing I look at on a <a href="/contact">quick website audit</a>.</p>
 
 <h2>Bottom Line</h2>
 <p>Hiding pricing feels like it protects your business from being undervalued or locked into a
@@ -1253,6 +1259,11 @@ little before you've said a word.</p>
 
 def _blog_date_key(post):
     return datetime.strptime(post["date"], "%B %d, %Y")
+
+
+@app.template_filter("iso_date")
+def iso_date(date_str):
+    return datetime.strptime(date_str, "%B %d, %Y").strftime("%Y-%m-%d")
 
 
 BLOG_POSTS_SORTED = sorted(BLOG_POSTS, key=_blog_date_key, reverse=True)

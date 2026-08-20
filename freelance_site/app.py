@@ -119,8 +119,8 @@ PORTFOLIO = [
                  "faith-based fatherhood resources like prayer decks, workbooks, and "
                  "conversation cards: homepage messaging, FAQ content, and product "
                  "descriptions, refined across several revision rounds with the founder.",
-        "link": "https://builtwithdad.net",
-        "link_label": "Visit the site",
+        "link": None,
+        "link_label": None,
     },
 ]
 

@@ -113,14 +113,14 @@ PORTFOLIO = [
         "link_label": None,
     },
     {
-        "name": "Faith-Based Lifestyle Brand",
+        "name": "Built With Dad",
         "tag": "Shopify copywriting",
-        "blurb": "A full copywriting project for a Shopify store selling faith-based digital "
-                 "products: homepage messaging, mission and FAQ content, and product "
-                 "descriptions, refined across several revision rounds based on real client "
-                 "feedback, plus an image-direction brief for future photography.",
-        "link": None,
-        "link_label": None,
+        "blurb": "A full copywriting project for Built With Dad, a Shopify store selling "
+                 "faith-based fatherhood resources like prayer decks, workbooks, and "
+                 "conversation cards: homepage messaging, FAQ content, and product "
+                 "descriptions, refined across several revision rounds with the founder.",
+        "link": "https://builtwithdad.net",
+        "link_label": "Visit the site",
     },
 ]
 

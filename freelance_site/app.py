@@ -114,10 +114,11 @@ PORTFOLIO = [
     },
     {
         "name": "Faith-Based Lifestyle Brand",
-        "tag": "Shopify copywriting — in progress",
-        "blurb": "A homepage and product description rewrite for a Shopify store selling "
-                 "faith-based digital products, alongside an image audit flagging AI-generated "
-                 "and mismatched photography with real replacement recommendations.",
+        "tag": "Shopify copywriting",
+        "blurb": "A full copywriting project for a Shopify store selling faith-based digital "
+                 "products: homepage messaging, mission and FAQ content, and product "
+                 "descriptions, refined across several revision rounds based on real client "
+                 "feedback, plus an image-direction brief for future photography.",
         "link": None,
         "link_label": None,
     },

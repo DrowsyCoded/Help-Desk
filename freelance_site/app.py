@@ -1171,6 +1171,83 @@ quiet stretch waiting on feedback, a markup pass with a few things to fix, and t
 finish. Nothing dramatic. Just the actual work.</p>
 """,
     },
+    {
+        "slug": "why-hiding-your-prices-is-costing-you-customers",
+        "icon": "cost",
+        "title": "Why \"Contact for Pricing\" Might Be Costing You Customers",
+        "description": "What actually happens in a visitor's head when your website hides pricing behind a contact form, and why a real starting price builds more trust than protecting a quote ever will.",
+        "date": "August 19, 2026",
+        "read_time": "6 min read",
+        "excerpt": "Hiding your prices doesn't protect your business from bargain hunters. It just gives everyone, including your best-fit customers, a reason to leave before they ever reach out.",
+        "body": """
+<p>A lot of small business owners hide their pricing for a reasonable-sounding reason: every job
+is different, quoting a number up front feels risky, and \"it depends\" is technically true. So
+the website says \"Contact us for a quote,\" the pricing page doesn't exist, and every visitor
+who wants to know what something costs has to fill out a form and wait. It feels like caution.
+What it actually does is quietly cost you customers who never tell you why they left.</p>
+
+<h2>What Actually Happens When Pricing Is Hidden</h2>
+<p>Put yourself in the visitor's position for a second. They found your site because they're
+already looking to solve a problem, and they're comparing you against at least two or three
+other options in the same tab group. If your site tells them what something costs and a
+competitor's doesn't, you've already saved them a step. If neither of you list a price, most
+people don't email both businesses and wait for replies. They pick whichever one made the
+decision easiest, or they assume the missing number means one of two things: it's expensive, or
+you're hiding something. Neither assumption is fair, but neither one is unreasonable either.
+Silence gets filled with the worst-case guess, not the benefit of the doubt.</p>
+<p>This isn't really about price sensitivity. It's about the extra step. A contact form is a
+real barrier, even a short one, because it asks someone to commit time and personal information
+before they even know if you're in their budget. Most visitors won't cross that barrier just to
+find out. They'll leave, and you'll never see them in your inbox to explain why.</p>
+
+<h2>The \"It Depends\" Trap Isn't Protecting You</h2>
+<p>The most common reason I hear for hiding pricing is that the real cost varies too much to
+post a single number. That's often true, and it's not actually a reason to hide pricing
+entirely. It's a reason to post a range or a starting price instead of one fixed number. \"Starting
+at $600\" or \"Most projects run $800 to $1,500\" still varies depending on scope, and it still
+gives a visitor enough to self-sort. Someone with a $200 budget and someone ready to spend $3,000
+are both better served knowing roughly where they land before they reach out, instead of finding
+out after a call that they were never in the right range to begin with.</p>
+<p>Treating \"it depends\" as a reason to say nothing usually isn't about accuracy. It's a
+discomfort with putting a number in writing. That discomfort is understandable, but it's the
+business owner's problem to manage, not the visitor's problem to work around.</p>
+
+<h2>What a Real Starting Price Actually Does</h2>
+<p>Posting real pricing, even a range, does the opposite of what most owners fear. It builds
+trust before the conversation even starts, because it signals you're not going to negotiate a
+number based on how much you think someone can afford. It also does real, practical filtering:
+people who were never going to be a fit self-select out before they take up your time, and
+people who are a fit show up already knowing roughly what to expect, which makes the actual sales
+conversation shorter and less awkward for both sides. The businesses I've seen make this switch
+consistently report fewer time-wasting inquiries and more serious ones, not a flood of bargain
+hunters, because the number itself already screened those visitors out before they picked up the
+phone.</p>
+
+<h2>You're Not Locked Into One Number</h2>
+<p>The fear I hear most often isn't really about hiding the number, it's about being held to it.
+Owners worry that posting \"starting at $X\" means every future customer will expect the floor
+price regardless of scope. A range solves this the same way it solves the accuracy problem: it
+sets expectations without making a binding promise. \"Starting at\" or \"typically ranges from\"
+does real work here. It tells a visitor whether they're in the right neighborhood without
+locking you into quoting the lowest number on a job that clearly needs more.</p>
+
+<h2>How to Check Your Own Site</h2>
+<p><strong>How to check:</strong> Pull up your own pricing or services page as if you were a
+first-time visitor comparing three businesses in open tabs. If the honest answer to \"what would
+this cost me\" is \"I'd have to ask,\" that's the exact friction point costing you the visitors
+who never followed up. If you're worried a real number would scare off high-value clients, ask
+yourself honestly whether that's ever actually happened, or whether it's a worry that's never
+been tested.</p>
+
+<h2>Bottom Line</h2>
+<p>Hiding pricing feels like it protects your business from being undervalued or locked into a
+number. In practice it mostly protects nobody. Visitors fill in the blank with their own
+worst-case guess and leave quietly, and you never get the chance to correct the assumption
+because you never hear from them at all. A real starting price, even a wide one, gets you fewer
+unqualified leads, more comfortable first conversations, and customers who already trust you a
+little before you've said a word.</p>
+""",
+    },
 ]
 
 
